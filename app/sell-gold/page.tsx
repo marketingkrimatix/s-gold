@@ -1,6 +1,42 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoldCalculator from "@/components/GoldCalculator";
+import FAQSection from "@/components/FAQSection";
+
+const SellGoldFaqs = [
+  {
+    question: "What types of gold can I sell?",
+    answer: "You can sell unused jewellery, broken ornaments, and gold coins. We evaluate all types of gold assets with precision using modern XRF technology."
+  },
+  {
+    question: "How do you determine the value of my gold?",
+    answer: "We use advanced XRF technology to accurately test the purity and value of your gold based on current live market rates."
+  },
+  {
+    question: "Can I estimate my gold value before selling?",
+    answer: "Yes, you can use our gold calculator by entering the weight in grams and selecting the purity (such as 22K) to get an estimated value."
+  },
+  {
+    question: "What is the process to sell my gold?",
+    answer: "The process is simple: visit a branch with your gold and ID, get a live valuation in front of you, and receive instant payment after accepting the offer."
+  },
+  {
+    question: "Do I need to visit a branch to sell my gold?",
+    answer: "Yes, you need to visit one of our secure branches with your gold and a valid government-issued ID for verification and processing."
+  },
+  {
+    question: "Will my gold be damaged during testing?",
+    answer: "No, we use non-destructive XRF testing methods, so your gold is not melted or damaged during evaluation."
+  },
+  {
+    question: "How long does the valuation process take?",
+    answer: "The valuation is done instantly in front of you, ensuring a quick and transparent process."
+  },
+  {
+    question: "How do I receive my payment?",
+    answer: "Once you accept the offer based on live market rates, you receive immediate payment through secure methods."
+  }
+];
 
 export default function SellGoldPage() {
   return (
@@ -58,7 +94,7 @@ export default function SellGoldPage() {
              ))}
          </div>
       </section>
-
+      <FAQSection faqs={SellGoldFaqs} />
       <Footer />
     </main>
   );

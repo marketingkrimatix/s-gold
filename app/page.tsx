@@ -15,6 +15,7 @@ import HeroSideAssets from "@/components/hero/HeroSideAssets";
 import HeroExchangeMobile from "@/components/hero/HeroExchangeMobile";
 import GoldCalculator from "@/components/GoldCalculator";
 import STimeline from "@/components/scroll/STimeline";
+import FAQSection from "@/components/FAQSection";
 
 const trustStats = [
   { value: "10K+", label: "Customers Served" },
@@ -38,6 +39,29 @@ const features = [
     title: "Trusted Local Experience",
     desc: "Designed for Hyderabad customers who want speed, trust, and a premium service flow.",
   },
+];
+
+const homepageFaqs = [
+  {
+    question: "How is the purity of my gold tested?",
+    answer: "We use advanced XRF testing machines to check the purity of your gold right in front of you without the need to melt it, ensuring 100% transparency.",
+  },
+  {
+    question: "How long does the payment process take?",
+    answer: "Once you accept our quote, payment is processed instantly via Cash, IMPS, RTGS, or UPI, based on your preference.",
+  },
+  {
+    question: "What documents do I need to sell my gold?",
+    answer: "You will need a valid government-issued ID (like an Aadhaar card, PAN card, or Passport) and address proof to comply with our secure processing.",
+  },
+  {
+    question: "Do you buy pledged gold?",
+    answer: "Yes, we specialize in helping release pledged gold from banks and pawnbrokers. We handle the paperwork and process, then purchase the gold at live market rates.",
+  },
+  {
+    question: "Is there any hidden fee?",
+    answer: "No, we believe in a fully transparent process. The evaluation is free, and there are absolutely no hidden charges or deductions from our final quote.",
+  }
 ];
 
 export default function HomePage() {
@@ -312,6 +336,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <FAQSection faqs={homepageFaqs} />
+
 
       <Footer />
     </main>

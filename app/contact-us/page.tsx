@@ -1,5 +1,29 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
+
+const contactUsFaqs = [
+  {
+    question: "How can I contact S-Gold?",
+    answer: "You can reach us through multiple channels: Phone & WhatsApp at +91 99969 09999 and +91 91664 64916, or email us at [EMAIL_ADDRESS].",
+  },
+  {
+    question: "What details are required in the contact form?",
+    answer: "You need to provide your name, phone number, and a message describing how we can assist you."
+  },
+  {
+    question: "Can I contact you on WhatsApp?",
+    answer: "Yes, both provided phone numbers are available for WhatsApp communication."
+  },
+  {
+    question: "What kind of assistance can I expect when I contact you?",
+    answer: "Our team of experts is ready to help you with transparent advice regarding selling your gold or releasing pledged gold.",
+  },
+  {
+    question: "Are your consultations free?",
+    answer: "Yes, we provide free consultations and transparent guidance for all your gold-related needs.",
+  }
+];
 
 export default function ContactUsPage() {
   return (
@@ -59,6 +83,7 @@ export default function ContactUsPage() {
            </form>
         </div>
       </section>
+      <FAQSection faqs={contactUsFaqs} />
 
       <Footer />
     </main>

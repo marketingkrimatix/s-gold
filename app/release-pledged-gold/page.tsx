@@ -1,5 +1,37 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
+
+const ReleasePledgedGoldFaqs = [
+  {
+    question: "What is pledged gold release service?",
+    answer: "Our pledged gold release service helps you clear your outstanding loan with banks or pawnbrokers, retrieve your gold, and receive the remaining value after evaluation."
+  },
+  {
+    question: "How does the pledged gold release process work?",
+    answer: "The process includes sharing your pledge details, a joint visit with our executive, clearing your dues, retrieving your gold, and final evaluation with instant settlement."
+  },
+  {
+    question: "What details do I need to provide?",
+    answer: "You need to share your pledge receipt details, total loan amount, and the location of the bank or pawnbroker."
+  },
+  {
+    question: "Will someone assist me during the process?",
+    answer: "Yes, our executive will accompany you to the bank or financier to ensure a smooth and secure release process."
+  },
+  {
+    question: "Do you directly pay the loan amount?",
+    answer: "Yes, we clear your pending dues directly with the bank or pawnbroker so your gold can be released instantly."
+  },
+  {
+    question: "How do I receive the remaining value?",
+    answer: "After evaluation, we deduct the loan amount paid and provide you with the remaining value as instant cash or preferred payment method."
+  },
+  {
+    question: "Is the process safe and transparent?",
+    answer: "Yes, the entire process is secure, transparent, and handled professionally to ensure your trust and convenience."
+  }
+]
 
 export default function ReleasePledgedGoldPage() {
   return (
@@ -49,6 +81,9 @@ export default function ReleasePledgedGoldPage() {
             ))}
          </div>
       </section>
+      
+      <FAQSection faqs={ReleasePledgedGoldFaqs} />
+
 
       <Footer />
     </main>

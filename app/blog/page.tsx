@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 const blogPosts = [
   {
@@ -23,6 +24,21 @@ const blogPosts = [
     excerpt: "Stuck with high pawnbroker interest rates? Here is how to legally and safely release and sell your pledged gold.",
     date: "March 15, 2026",
     category: "Finance"
+  }
+];
+
+const blogFaqs = [
+  {
+    question: "How do I know if my gold is pure?",
+    answer: "You can check gold purity at home using simple methods like the magnet test, acid test, or by checking for hallmark stamps. For precise results, visit a professional gold buyer like S-Gold."
+  },
+  {
+    question: "What is XRF technology?",
+    answer: "XRF (X-ray Fluorescence) technology is a non-destructive method used to determine the exact composition and purity of gold without melting or damaging it."
+  },
+  {
+    question: "Can I sell pledged gold?",
+    answer: "Yes, you can sell pledged gold. You need to clear the outstanding loan amount with the lender to release the gold, after which you can sell it to a buyer like S-Gold."
   }
 ];
 
@@ -64,6 +80,7 @@ export default function BlogPage() {
            ))}
         </div>
       </section>
+      <FAQSection faqs={blogFaqs} />
 
       <Footer />
     </main>

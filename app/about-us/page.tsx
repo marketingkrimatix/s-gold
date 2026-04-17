@@ -1,5 +1,38 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
+
+const aboutUsFaqs = [
+  {
+    question: "Who are you and what do you do?",
+    answer: "S-Gold is one of Hyderabad’s most trusted gold buyers, offering a secure, premium, and transparent experience for selling and releasing gold.",
+  },
+  {
+    question: "What makes your gold buying service trustworthy?",
+    answer: "We focus on complete transparency, secure transactions, and accurate gold evaluation using certified XRF technology, ensuring customers get fair value.",
+  },
+  {
+    question: "What is your mission?",
+    answer: "Our mission is to simplify the gold-selling process by eliminating confusing pricing and unclear practices, and providing accurate purity testing using advanced XRF machines.",
+  },
+  {
+    question: "How do you ensure accurate gold testing?",
+    answer: "We use certified German-technology XRF machines to provide precise purity readings instantly in front of customers.",
+  },
+  {
+    question: "Is your gold evaluation process transparent?",
+    answer: "Yes, we maintain 100% transparency by testing gold right in front of you and clearly explaining the valuation process.",
+  },
+  {
+    question: "What kind of environment do you provide for customers?",
+    answer: "We provide a highly secure and premium environment where customers feel safe, respected, and comfortable throughout the evaluation and payment process.",
+  },
+  {
+    question: "Why should I choose your service over others?",
+    answer: "Unlike many others, we offer certified testing, transparent pricing, secure handling, and a premium customer experience, making us a trusted choice in Hyderabad.",
+  }
+];
+
 
 export default function AboutUsPage() {
   return (
@@ -61,7 +94,9 @@ export default function AboutUsPage() {
           </div>
         </div>
       </section>
+      <FAQSection faqs={aboutUsFaqs} />
 
+      
       <Footer />
     </main>
   );

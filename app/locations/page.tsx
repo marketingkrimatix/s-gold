@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 
 const branches = [
   {
@@ -23,6 +24,29 @@ const branches = [
     phone: "+91 99969 09999",
   }
 ];
+
+const locationsFaqs = [
+  {
+    "question": "Where is your head office located?",
+    "answer": "Our head office is located at Plot No. 6, Nilayam, Siva Sai Apartment, Khairatabad Road, opposite SBI Bank, Khairatabad, Hyderabad - 500004."
+  },
+  {
+    "question": "Do you have a branch in Karwan?",
+    "answer": "Yes, our Karwan branch is located at Jaffar Guda, Satyanarayan Nagar, Karwan, Hyderabad - 500006."
+  },
+  {
+    "question": "How can I contact your branches?",
+    "answer": "You can contact our branches via phone: Head Office & Karwan - +91 99969 09999, Jubilee Hills - +91 91664 64916, Kukatpally - +91 77710 77720."
+  },
+  {
+    "question": "Can I visit any branch for gold valuation?",
+    "answer": "Yes, you can visit any of our branches for a free and transparent gold valuation in a secure environment."
+  },
+  {
+    "question": "Do all branches provide the same services?",
+    "answer": "Yes, all our branches offer gold valuation, selling services, and pledged gold release with the same level of transparency and security."
+  }
+]
 
 export default function LocationsPage() {
   return (
@@ -56,6 +80,8 @@ export default function LocationsPage() {
            ))}
         </div>
       </section>
+      <FAQSection faqs={locationsFaqs} />
+      
 
       <Footer />
     </main>
