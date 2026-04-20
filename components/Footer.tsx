@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t border-divider bg-footer-bg">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-4 lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-5 lg:px-8">
         <div>
           <div className="mb-4 flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] font-bold text-[#330164] shadow-[0_10px_25px_rgba(233,201,98,0.16)]">
@@ -32,20 +32,28 @@ export default function Footer() {
             <Link href="/sell-gold" className="block transition hover:text-brand-gold-soft">Sell Gold</Link>
             <Link href="/release-pledged-gold" className="block transition hover:text-brand-gold-soft">Release Gold</Link>
             <Link href="/locations" className="block transition hover:text-brand-gold-soft">Locations</Link>
-            <Link href="/blog" className="block transition hover:text-brand-gold-soft">Blog</Link>
-            <Link href="/contact-us" className="block transition hover:text-brand-gold-soft">Contact</Link>
           </div>
         </div>
 
         <div>
           <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-brand-gold">
-            Services
+            Trust & Growth
           </h3>
           <div className="space-y-3 text-sm text-text-secondary">
-            <p>Sell old gold</p>
-            <p>Release pledged gold</p>
-            <p>Gold valuation</p>
-            <p>Instant payment</p>
+            <Link href="/valuation-process" className="block transition hover:text-brand-gold-soft">Valuation Process</Link>
+            <Link href="/referral-program" className="block transition hover:text-brand-gold-soft">Referral Program</Link>
+            <Link href="/why-us" className="block transition hover:text-brand-gold-soft">Why S-Gold</Link>
+            <Link href="/blog" className="block transition hover:text-brand-gold-soft">Blog</Link>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-brand-gold">
+            Legal
+          </h3>
+          <div className="space-y-3 text-sm text-text-secondary">
+            <Link href="/privacy-policy" className="block transition hover:text-brand-gold-soft">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" className="block transition hover:text-brand-gold-soft">Terms & Conditions</Link>
           </div>
         </div>
 
@@ -58,7 +66,7 @@ export default function Footer() {
             <p>+91 99969 09999</p>
             <p>support@s-gold.in</p>
             <Link
-              href="#"
+              href="/contact-us"
               className="mt-3 inline-flex rounded-full border border-gold-accent-border bg-card-bg px-4 py-2 text-sm font-medium text-text-primary transition hover:border-brand-gold/50 hover:bg-card-bg-hover"
             >
               Book a Visit

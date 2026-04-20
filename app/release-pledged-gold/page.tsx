@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
+import ChecklistSection from "@/components/ChecklistSection";
 
 const ReleasePledgedGoldFaqs = [
   {
@@ -127,6 +128,8 @@ export default function ReleasePledgedGoldPage() {
           </div>
         </div>
       </section>
+
+      <ChecklistSection />
 
       <FAQSection faqs={ReleasePledgedGoldFaqs} />
 

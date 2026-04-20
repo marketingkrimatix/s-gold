@@ -21,6 +21,15 @@ const navItems: NavItem[] = [
   { label: "Sell Gold", href: "/sell-gold" },
   { label: "Release Gold", href: "/release-pledged-gold" },
   {
+    label: "Trust",
+    href: "/valuation-process",
+    children: [
+      { label: "Valuation Process", href: "/valuation-process" },
+      // { label: "Referral Program", href: "/referral-program" },
+      { label: "Why Choose Us", href: "/why-us" },
+    ],
+  },
+  {
     label: "Locations",
     href: "/locations",
     children: [
@@ -36,8 +45,8 @@ export default function Header() {
 
   const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [mobileLocationsOpen, setMobileLocationsOpen] = useState(false);
-  const [desktopLocationsOpen, setDesktopLocationsOpen] = useState(false);
+  const [mobileOpenMenu, setMobileOpenMenu] = useState<string | null>(null);
+  const [desktopOpenMenu, setDesktopOpenMenu] = useState<string | null>(null);
 
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -60,17 +69,17 @@ export default function Header() {
 
   const closeMenu = () => {
     setMobileMenuOpen(false);
-    setMobileLocationsOpen(false);
+    setMobileOpenMenu(null);
   };
 
-  const openDesktopLocationsMenu = () => {
+  const openDesktopMenu = (label: string) => {
     if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
-    setDesktopLocationsOpen(true);
+    setDesktopOpenMenu(label);
   };
 
-  const closeDesktopLocationsMenu = () => {
+  const closeDesktopMenu = () => {
     closeTimerRef.current = setTimeout(() => {
-      setDesktopLocationsOpen(false);
+      setDesktopOpenMenu(null);
     }, 120);
   };
 
@@ -104,14 +113,14 @@ export default function Header() {
                   <div
                     key={item.label}
                     className="group relative"
-                    onMouseEnter={openDesktopLocationsMenu}
-                    onMouseLeave={closeDesktopLocationsMenu}
+                    onMouseEnter={() => openDesktopMenu(item.label)}
+                    onMouseLeave={closeDesktopMenu}
                   >
                     <button
                       type="button"
-                      onClick={() => setDesktopLocationsOpen((prev) => !prev)}
-                      aria-expanded={desktopLocationsOpen}
-                      aria-label="Toggle locations menu"
+                      onClick={() => setDesktopOpenMenu(desktopOpenMenu === item.label ? null : item.label)}
+                      aria-expanded={desktopOpenMenu === item.label}
+                      aria-label={`Toggle ${item.label} menu`}
                       className="flex items-center gap-2"
                     >
                       <span className="relative text-sm font-medium text-[var(--color-text-secondary)] transition hover:text-[var(--color-brand-gold-soft)] after:absolute after:left-0 after:top-[120%] after:h-px after:w-0 after:bg-[var(--color-brand-gold)] after:transition-all after:duration-300 group-hover:after:w-full group-hover:text-[var(--color-brand-gold-soft)]">
@@ -120,7 +129,7 @@ export default function Header() {
 
                       <svg
                         className={`h-4 w-4 text-[var(--color-text-secondary)] transition-all duration-300 group-hover:text-[var(--color-brand-gold-soft)] ${
-                          desktopLocationsOpen ? "rotate-180" : ""
+                          desktopOpenMenu === item.label ? "rotate-180" : ""
                         }`}
                         viewBox="0 0 20 20"
                         fill="none"
@@ -139,7 +148,7 @@ export default function Header() {
 
                     <div
                       className={`absolute left-0 top-[calc(100%+12px)] z-50 w-72 origin-top rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-surface)] p-3 shadow-[0_24px_80px_rgba(0,0,0,0.20)] transition-all duration-200 ${
-                        desktopLocationsOpen
+                        desktopOpenMenu === item.label
                           ? "pointer-events-auto visible translate-y-0 opacity-100"
                           : "pointer-events-none invisible -translate-y-2 opacity-0"
                       }`}
@@ -148,7 +157,7 @@ export default function Header() {
                         href={item.href}
                         className="mb-2 flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-brand-gold)]"
                       >
-                        <span>All Locations</span>
+                        <span>All {item.label}</span>
                         <span className="text-[var(--color-brand-gold)]/80">↗</span>
                       </Link>
 
@@ -309,14 +318,14 @@ export default function Header() {
 
                           <button
                             type="button"
-                            aria-label="Toggle locations submenu"
-                            aria-expanded={mobileLocationsOpen}
-                            onClick={() => setMobileLocationsOpen((prev) => !prev)}
+                            aria-label={`Toggle ${item.label} submenu`}
+                            aria-expanded={mobileOpenMenu === item.label}
+                            onClick={() => setMobileOpenMenu(mobileOpenMenu === item.label ? null : item.label)}
                             className="flex h-11 w-11 items-center justify-center rounded-2xl text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)]"
                           >
                             <svg
                               className={`h-4 w-4 transition-transform duration-300 ${
-                                mobileLocationsOpen ? "rotate-180" : ""
+                                mobileOpenMenu === item.label ? "rotate-180" : ""
                               }`}
                               viewBox="0 0 20 20"
                               fill="none"
@@ -334,7 +343,7 @@ export default function Header() {
 
                         <div
                           className={`grid transition-all duration-300 ${
-                            mobileLocationsOpen
+                            mobileOpenMenu === item.label
                               ? "grid-rows-[1fr] opacity-100"
                               : "grid-rows-[0fr] opacity-70"
                           }`}

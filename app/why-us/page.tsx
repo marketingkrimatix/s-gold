@@ -67,6 +67,61 @@ export default function OurServicesPage() {
         </div>
       </section>
 
+      {/* Trust by the Numbers */}
+      <section className="bg-section-bg py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+            {[
+              { label: "Years Experience", value: "10+" },
+              { label: "Happy Customers", value: "50K+" },
+              { label: "Gold Evaluated", value: "2 Tons+" },
+              { label: "Branches", value: "15+" }
+            ].map((stat) => (
+              <div key={stat.label} className="text-center">
+                <p className="text-4xl font-bold text-brand-gold mb-2">{stat.value}</p>
+                <p className="text-sm text-text-tertiary uppercase tracking-widest">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Deep Pillars */}
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+         <div className="grid gap-12 lg:grid-cols-2">
+            <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
+               <h3 className="text-2xl font-bold text-text-primary mb-6">Our Payout Excellence</h3>
+               <ul className="space-y-4">
+                  {[
+                    "Spot Cash payments (under regulatory limits)",
+                    "Instant IMPS / RTGS for large amounts",
+                    "No hidden service charges or commission",
+                    "UPI transfers for smaller, quick payouts"
+                  ].map(p => (
+                    <li key={p} className="flex items-center gap-3 text-text-secondary">
+                      <span className="text-brand-gold">→</span> {p}
+                    </li>
+                  ))}
+               </ul>
+            </div>
+            <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
+               <h3 className="text-2xl font-bold text-text-primary mb-6">Unmatched Security</h3>
+               <ul className="space-y-4">
+                  {[
+                    "CCTV monitored testing areas",
+                    "Secure, high-grade vault storage",
+                    "Fully insured gold handling",
+                    "Privacy-first customer verification"
+                  ].map(p => (
+                    <li key={p} className="flex items-center gap-3 text-text-secondary">
+                      <span className="text-brand-gold">→</span> {p}
+                    </li>
+                  ))}
+               </ul>
+            </div>
+         </div>
+      </section>
+
       <section id="process" className="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-16">
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-[2rem] border border-card-border bg-section-bg p-8 backdrop-blur-xl">
