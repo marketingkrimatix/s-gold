@@ -94,7 +94,58 @@ export default function SellGoldPage() {
              ))}
          </div>
       </section>
-      <FAQSection faqs={SellGoldFaqs} />
+
+      <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-start">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">Sell Gold</h2>
+              <div className="mt-6 space-y-6 text-lg leading-8 text-text-secondary">
+                <p>
+                  If you have gold jewellery that you do not use anymore you can sell the same for instant cash at S Gold. 
+                  We are known as the best gold buyer in Hyderabad & we offer the best price in the market. 
+                  Gold is an asset that comes handy in times of financial crises where you can sell your jewellery 
+                  to fulfill your financial requirements.
+                </p>
+                <p>
+                  Apart from this, you may want to sell old jewellery to replace it with new, trending designer jewellery – 
+                  its the perfect way to upgrade! Sell your old gold at S Gold and convert it into cash in hand, instantly. 
+                  At S Gold, we guarantee fair evaluation and pricing of your gold as we are the best place to take gold for cash.
+                </p>
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-10">
+              <h2 className="text-2xl font-bold tracking-tight text-text-primary sm:text-3xl">Get Cash for Gold</h2>
+              <div className="mt-6 space-y-6 text-base leading-7 text-text-secondary">
+                <p>
+                  In Hyderabad, there are many outlets that buy and sell gold jewelry for cash, but S Gold sets the standard 
+                  for offering the best prices for selling gold jewelry, backed by transparency and trust built over the years. 
+                  We are a one-stop solution for all your gold and funds-against-gold related queries.
+                </p>
+                <p>
+                  S Gold boasts a simple, transparent, and clear process for evaluating your gold and offers you the best value in return. 
+                  The most sensible way to sell jewellery is to calculate how much amount you take home after the sale. 
+                  If you compare prices across competitors, you will find that our rates are among the best in Telangana.
+                </p>
+              </div>
+
+              <div className="mt-10 rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6">
+                <h3 className="text-lg font-bold text-brand-gold">Instant Cash for Gold</h3>
+                <p className="mt-2 text-sm leading-6 text-text-secondary">
+                  Exchange your Jewellery bought from any jeweler & get the best rate in cash instantly.
+                </p>
+                <p className="mt-4 text-[10px] uppercase tracking-wider text-text-tertiary">
+                  *Offer only across Andhra Pradesh, Telangana, Karnataka, Tamil Nadu, Kerala and North Region *conditions apply.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<FAQSection faqs={SellGoldFaqs} />
+
       <Footer />
     </main>
   );

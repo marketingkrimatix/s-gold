@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 
 const items = [
@@ -34,12 +34,14 @@ function PhoneCard({
   stat,
   src,
   progress,
+  rate,
 }: {
   title: string;
   desc: string;
   stat: string;
   src: string;
   progress: any;
+  rate: string;
 }) {
   const y = useTransform(progress, [0, 1], [50, -50]);
   const rotate = useTransform(progress, [0, 1], [-6, 6]);
@@ -71,7 +73,7 @@ function PhoneCard({
           <div className="mt-6 grid grid-cols-2 gap-3">
             <div className="rounded-2xl border border-card-border bg-card-bg p-4">
               <p className="text-xs uppercase tracking-[0.2em] text-brand-gold">Rate</p>
-              <p className="mt-2 text-lg font-semibold text-text-primary">₹ 7,2XX</p>
+              <p className="mt-2 text-lg font-semibold text-text-primary">₹ {rate}</p>
             </div>
             <div className="rounded-2xl border border-card-border bg-card-bg p-4">
               <p className="text-xs uppercase tracking-[0.2em] text-brand-gold">Status</p>
@@ -86,6 +88,18 @@ function PhoneCard({
 
 export default function ScrollShowcase() {
   const ref = useRef<HTMLDivElement>(null);
+  const [rate, setRate] = useState<string>("7,2XX");
+
+  useEffect(() => {
+    fetch("/api/gold-rate")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success && data.rate24kPerGram) {
+          setRate(data.rate24kPerGram.toLocaleString("en-IN", { maximumFractionDigits: 0 }));
+        }
+      })
+      .catch((err) => console.error(err));
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -140,6 +154,7 @@ export default function ScrollShowcase() {
                 stat={items[0].stat}
                 src={items[0].src}
                 progress={scrollYProgress}
+                rate={rate}
               />
             </motion.div>
 
@@ -150,6 +165,7 @@ export default function ScrollShowcase() {
                 stat={items[1].stat}
                 src={items[1].src}
                 progress={scrollYProgress}
+                rate={rate}
               />
             </motion.div>
 
@@ -160,6 +176,7 @@ export default function ScrollShowcase() {
                 stat={items[2].stat}
                 src={items[2].src}
                 progress={scrollYProgress}
+                rate={rate}
               />
             </motion.div>
           </div>

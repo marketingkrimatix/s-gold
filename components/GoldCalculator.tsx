@@ -34,6 +34,8 @@ export default function GoldCalculator() {
         setRate24k(data.rate24kPerGram);
         setUpdatedAt(data.updatedAt);
       } catch (err) {
+        // TODO : Remove this when the API is working, its just for demo purpose
+        setRate24k(14508);
         setError(err instanceof Error ? err.message : "Something went wrong");
       } finally {
         setLoading(false);
@@ -95,9 +97,11 @@ export default function GoldCalculator() {
       <div className="mt-6 rounded-3xl border border-gold-accent-border bg-gold-accent-bg p-5">
         {loading ? (
           <p className="text-text-secondary">Loading live gold rate...</p>
-        ) : error ? (
-          <p className="text-red-400">{error}</p>
-        ) : (
+        ) : 
+        // error ? (
+        //   <p className="text-red-400">{error}</p>
+        // ) : 
+        (
           <>
             <p className="text-sm text-brand-gold-soft">Live 24K gold rate</p>
             <p className="mt-2 text-3xl font-semibold text-text-primary">

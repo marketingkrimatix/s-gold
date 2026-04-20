@@ -14,7 +14,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <p className="text-sm uppercase tracking-[0.25em] text-brand-gold">
             Category • April 10, 2026
           </p>
-          <h1 className="mt-6 text-3xl font-bold leading-tight text-text-primary sm:text-5xl">
+          <h1 className="first-letter:uppercase mt-6 text-3xl font-bold leading-tight text-text-primary sm:text-5xl">
              {slug.split("-").join(" ")}
           </h1>
         </div>

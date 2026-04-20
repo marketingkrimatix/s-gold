@@ -94,9 +94,60 @@ export default function AboutUsPage() {
           </div>
         </div>
       </section>
+
+      <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">About S Gold</h2>
+            <p className="mt-6 text-lg leading-8 text-text-secondary">
+              We are known as the best jewellery buyers in Hyderabad & we offer the best price in the market. 
+              Being one of the best-certified gold buyers in Hyderabad exchanging gold for cash, we make payment 
+              after proper evaluation of your jewellery. Our expert professionals will guide you through the 
+              simple and transparent process of selling gold jewellery.
+            </p>
+          </div>
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+              <div className="flex flex-col">
+                <dt className="text-base font-semibold leading-7 text-text-primary">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-brand-gold">
+                    <svg className="h-6 w-6 text-[#2A0848]" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  Trusted Legacy
+                </dt>
+                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-text-secondary">
+                  <p className="flex-auto">
+                    S Gold was established 10 years ago in Hyderabad and has since become a trusted name in the gold buying market. 
+                    We strive towards providing the best service to our customers in a secure environment with complete confidence and privacy ensured.
+                  </p>
+                </dd>
+              </div>
+              <div className="flex flex-col">
+                <dt className="text-base font-semibold leading-7 text-text-primary">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-brand-gold">
+                    <svg className="h-6 w-6 text-[#2A0848]" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  Best Payouts
+                </dt>
+                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-text-secondary">
+                  <p className="flex-auto">
+                    Our team strives towards providing the best payouts by implementing proper buying practices. 
+                    At S Gold Finance, we buy your gold assets and pay instant cash. We also help our customers 
+                    to release their pledged gold and jewellery from banks, pawnshops, and other financiers.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
       <FAQSection faqs={aboutUsFaqs} />
 
-      
       <Footer />
     </main>
   );

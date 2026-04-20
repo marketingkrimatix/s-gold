@@ -82,8 +82,53 @@ export default function ReleasePledgedGoldPage() {
          </div>
       </section>
       
-      <FAQSection faqs={ReleasePledgedGoldFaqs} />
+      <section className="relative overflow-hidden bg-[var(--color-section-bg)] py-16 lg:py-24">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute left-[-10%] top-0 h-96 w-96 rounded-full bg-brand-gold/5 blur-[100px]" />
+        </div>
 
+        <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
+            <div className="fade-up">
+              <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">Release Pledged Gold & Buy</h2>
+              <div className="mt-6 space-y-6 text-lg leading-8 text-text-secondary">
+                <p>
+                  Do you have any gold pledged at a bank, a pawnshop or pawnbroker? Are you searching for jewellers 
+                  that will release pledged gold and buy it back for cash? 
+                </p>
+                <p>
+                  S Gold is the best jewellery buyer in Hyderabad that can help you to release pledged gold and 
+                  offer money for gold. You need not worry about anything during this process. We will take care 
+                  of everything from releasing your pledged gold to offering you the best price for your gold.
+                </p>
+              </div>
+            </div>
+
+            <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-[0_24px_70px_rgba(0,0,0,0.12)] backdrop-blur-xl lg:p-12">
+              <div className="flex flex-col gap-8">
+                <div>
+                  <h3 className="text-xl font-semibold text-text-primary">Customer-First Approach</h3>
+                  <p className="mt-4 text-base leading-7 text-text-secondary">
+                    S Gold attaches extreme importance towards customer gratification and this helps us in 
+                    providing various gold related services to our customers.
+                  </p>
+                </div>
+                
+                <div className="rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6">
+                  <p className="text-base leading-7 text-text-primary">
+                    We are one of the few registered outfits in Hyderabad offering the 
+                    <span className="font-semibold text-brand-gold"> Release of Pledged Gold</span> and 
+                    purchase of gold in Hyderabad by helping customers release their gold. 
+                    Moreover, we are also among the few who buy gold after its release.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <FAQSection faqs={ReleasePledgedGoldFaqs} />
 
       <Footer />
     </main>

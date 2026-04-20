@@ -55,7 +55,7 @@ export default function Footer() {
           </h3>
           <div className="space-y-3 text-sm text-text-secondary">
             <p>Hyderabad, Telangana</p>
-            <p>+91 99999 99999</p>
+            <p>+91 99969 09999</p>
             <p>support@s-gold.in</p>
             <Link
               href="#"
