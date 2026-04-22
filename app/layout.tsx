@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "S-Gold | Sell Gold for Instant Cash",
+  title: "S Gold | Sell Gold for Instant Cash",
   description: "Modern premium gold buyer website built with Next.js and Tailwind CSS.",
 };
 

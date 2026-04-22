@@ -23,7 +23,7 @@ export default function KukatpallyLocationPage() {
   const faqs = [
     {
       question: "Which is the best place to sell gold near KPHB Colony in Kukatpally?",
-      answer: "If you are near KPHB Colony or JNTU, S-Gold offers transparent pricing, live gold rate evaluation, and quick payment, making it a reliable choice."
+      answer: "If you are near KPHB Colony or JNTU, S Gold offers transparent pricing, live gold rate evaluation, and quick payment, making it a reliable choice."
     },
     {
       question: "Can I sell gold near JNTU Kukatpally without traveling far?",
@@ -31,7 +31,7 @@ export default function KukatpallyLocationPage() {
     },
     {
       question: "Do gold buyers in Kukatpally check purity in front of customers?",
-      answer: "Yes, at S-Gold, we use advanced XRF testing machines to check the purity of your gold right in front of you for 100% transparency."
+      answer: "Yes, at S Gold, we use advanced XRF testing machines to check the purity of your gold right in front of you for 100% transparency."
     },
     {
       question: "Can I sell small gold items like rings or chains in Kukatpally?",
@@ -60,7 +60,7 @@ export default function KukatpallyLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            In a fast-paced area like Kukatpally, convenience plays a major role. S-Gold provides a simple, nearby option for residents of KPHB, JNTU, and surrounding neighborhoods.
+            In a fast-paced area like Kukatpally, convenience plays a major role. S Gold provides a simple, nearby option for residents of KPHB, JNTU, and surrounding neighborhoods.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -143,7 +143,7 @@ export default function KukatpallyLocationPage() {
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-text-primary">The S-Gold Selling Process</h2>
+            <h2 className="text-3xl font-bold text-text-primary">The S Gold Selling Process</h2>
           </div>
           <div className="mt-16 grid gap-8 md:grid-cols-4">
             {steps.map((step, idx) => (
@@ -185,7 +185,7 @@ export default function KukatpallyLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Kukatpally Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Kukatpally Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Simple, fast, and transparent gold selling.</p>
 
               <div className="mt-10 space-y-8">
@@ -259,7 +259,7 @@ export default function KukatpallyLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

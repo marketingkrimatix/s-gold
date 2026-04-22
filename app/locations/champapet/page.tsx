@@ -22,7 +22,7 @@ export default function ChampapetLocationPage() {
   const faqs = [
     {
       question: "What is today’s gold rate in Champapet?",
-      answer: "Gold prices fluctuate based on market conditions. At S-Gold Champapet, gold is evaluated using the live market rate at the time of testing."
+      answer: "Gold prices fluctuate based on market conditions. At S Gold Champapet, gold is evaluated using the live market rate at the time of testing."
     },
     {
       question: "Can I sell broken or damaged gold jewellery here?",
@@ -59,7 +59,7 @@ export default function ChampapetLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Your trusted destination for transparent gold buying in South-East Hyderabad. S-Gold Champapet serves the local community with honest pricing, quick service, and complete peace of mind.
+            Your trusted destination for transparent gold buying in South-East Hyderabad. S Gold Champapet serves the local community with honest pricing, quick service, and complete peace of mind.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -182,7 +182,7 @@ export default function ChampapetLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Champapet Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Champapet Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Safe, secure, and professional gold liquidation.</p>
 
               <div className="mt-10 space-y-8">
@@ -256,7 +256,7 @@ export default function ChampapetLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

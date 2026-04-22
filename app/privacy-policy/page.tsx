@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       <section className="relative overflow-hidden px-6 py-20 lg:px-8">
         <div className="absolute inset-0 -z-10">
           <div className="absolute left-[-10%] top-0 h-96 w-96 rounded-full bg-brand-gold/10 blur-[100px]" />
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-gold">Legal</p>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">Privacy Policy</h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Your privacy is important to us. This policy explains how S-Gold collects, uses, and protects your information.
+            Your privacy is important to us. This policy explains how S Gold collects, uses, and protects your information.
           </p>
 
           <div className="mt-16 space-y-12">

@@ -29,7 +29,7 @@ export default function OurServicesPage() {
       <section id="why-us" className="mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-12">
         <div className="grid gap-6 rounded-[2rem] border border-card-border bg-card-bg p-6 backdrop-blur-xl md:grid-cols-3">
           <div>
-            <p className="text-sm uppercase tracking-[0.22em] text-brand-gold">Why S-Gold</p>
+            <p className="text-sm uppercase tracking-[0.22em] text-brand-gold">Why S Gold</p>
             <h2 className="mt-3 text-3xl font-semibold text-text-primary">
               Modern trust, not old-style clutter
             </h2>
@@ -88,38 +88,38 @@ export default function OurServicesPage() {
 
       {/* Deep Pillars */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-         <div className="grid gap-12 lg:grid-cols-2">
-            <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
-               <h3 className="text-2xl font-bold text-text-primary mb-6">Our Payout Excellence</h3>
-               <ul className="space-y-4">
-                  {[
-                    "Spot Cash payments (under regulatory limits)",
-                    "Instant IMPS / RTGS for large amounts",
-                    "No hidden service charges or commission",
-                    "UPI transfers for smaller, quick payouts"
-                  ].map(p => (
-                    <li key={p} className="flex items-center gap-3 text-text-secondary">
-                      <span className="text-brand-gold">→</span> {p}
-                    </li>
-                  ))}
-               </ul>
-            </div>
-            <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
-               <h3 className="text-2xl font-bold text-text-primary mb-6">Unmatched Security</h3>
-               <ul className="space-y-4">
-                  {[
-                    "CCTV monitored testing areas",
-                    "Secure, high-grade vault storage",
-                    "Fully insured gold handling",
-                    "Privacy-first customer verification"
-                  ].map(p => (
-                    <li key={p} className="flex items-center gap-3 text-text-secondary">
-                      <span className="text-brand-gold">→</span> {p}
-                    </li>
-                  ))}
-               </ul>
-            </div>
-         </div>
+        <div className="grid gap-12 lg:grid-cols-2">
+          <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
+            <h3 className="text-2xl font-bold text-text-primary mb-6">Our Payout Excellence</h3>
+            <ul className="space-y-4">
+              {[
+                "Spot Cash payments (under regulatory limits)",
+                "Instant IMPS / RTGS for large amounts",
+                "No hidden service charges or commission",
+                "UPI transfers for smaller, quick payouts"
+              ].map(p => (
+                <li key={p} className="flex items-center gap-3 text-text-secondary">
+                  <span className="text-brand-gold">→</span> {p}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-10">
+            <h3 className="text-2xl font-bold text-text-primary mb-6">Unmatched Security</h3>
+            <ul className="space-y-4">
+              {[
+                "CCTV monitored testing areas",
+                "Secure, high-grade vault storage",
+                "Fully insured gold handling",
+                "Privacy-first customer verification"
+              ].map(p => (
+                <li key={p} className="flex items-center gap-3 text-text-secondary">
+                  <span className="text-brand-gold">→</span> {p}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="process" className="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-16">
@@ -130,7 +130,7 @@ export default function OurServicesPage() {
 
             <div className="mt-8 space-y-4">
               {[
-                "Visit your nearest S-Gold branch.",
+                "Visit your nearest S Gold branch.",
                 "Get purity and weight tested transparently in front of you.",
                 "Accept the quote and receive instant payment.",
               ].map((step, index) => (

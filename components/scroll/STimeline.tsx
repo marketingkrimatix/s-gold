@@ -87,7 +87,7 @@ export default function STimeline() {
             Our Transparent Workflow
           </p>
           <h2 className="mt-3 text-3xl font-semibold text-text-primary sm:text-4xl">
-            The S-Gold Standard
+            The S Gold Standard
           </h2>
         </div>
 

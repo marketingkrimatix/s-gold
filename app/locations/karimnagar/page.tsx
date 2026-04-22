@@ -27,13 +27,13 @@ export default function KarimnagarLocationPage() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="relative px-6 py-20 lg:px-8">
         <div className="absolute inset-0 z-0">
           <div className="absolute left-[-10%] top-0 h-96 w-96 rounded-full bg-brand-gold/10 blur-[100px]" />
         </div>
-        
+
         <div className="relative z-10 mx-auto max-w-4xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-gold">
             Locations: Karimnagar
@@ -87,7 +87,7 @@ export default function KarimnagarLocationPage() {
               We are committed to giving you the highest market price with complete transparency.
             </p>
           </div>
-          
+
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
             <h3 className="text-2xl font-bold text-text-primary">Why Choose S Gold in Karimnagar?</h3>
             <div className="mt-8 space-y-6">
@@ -122,9 +122,9 @@ export default function KarimnagarLocationPage() {
             ))}
           </div>
           <div className="mt-12 text-center">
-             <Link href="tel:+919999999999" className="inline-flex rounded-full bg-brand-gold px-8 py-3 text-sm font-bold text-[#2A0848] shadow-lg transition hover:scale-105">
-               Call Now for Instant Quote
-             </Link>
+            <Link href="tel:+919999999999" className="inline-flex rounded-full bg-brand-gold px-8 py-3 text-sm font-bold text-[#2A0848] shadow-lg transition hover:scale-105">
+              Call Now for Instant Quote
+            </Link>
           </div>
         </div>
       </section>
@@ -178,7 +178,7 @@ export default function KarimnagarLocationPage() {
             <div>
               <h2 className="text-3xl font-bold text-text-primary">Ready to Sell Your Gold in Karimnagar?</h2>
               <p className="mt-4 text-lg text-text-secondary">Get the best price today with S Gold!</p>
-              
+
               <div className="mt-10 space-y-8">
                 <div className="flex gap-4">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-brand-gold/10 text-brand-gold">
@@ -244,13 +244,13 @@ export default function KarimnagarLocationPage() {
             </div>
 
             <div className="h-[400px] overflow-hidden rounded-[2rem] border border-card-border shadow-inner">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.25!2d79.13!3d18.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b1a1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2sS-Gold%20Karimnagar!5e0!3m2!1sen!2sin!4v1713360000000!5m2!1sen!2sin" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen={true} 
-                loading="lazy" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.25!2d79.13!3d18.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b1a1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2sS+Gold%20Karimnagar!5e0!3m2!1sen!2sin!4v1713360000000!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
@@ -258,7 +258,7 @@ export default function KarimnagarLocationPage() {
         </div>
       </section>
 
-            {/* Testimonials */}
+      {/* Testimonials */}
       <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">

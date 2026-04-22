@@ -6,7 +6,7 @@ const services = [
   {
     title: "Sell Gold",
     description:
-      "If you have gold jewellery that you do not use anymore, you can sell it for instant cash at S-Gold.",
+      "If you have gold jewellery that you do not use anymore, you can sell it for instant cash at S Gold.",
     href: "/sell-gold",
     badge: "Instant Cash",
     src: "/3.jpeg",
@@ -14,7 +14,7 @@ const services = [
   {
     title: "Release Pledged Gold",
     description:
-      "If your gold is pledged at a bank, pawnshop, or pawnbroker, S-Gold can help release it and buy it back for cash.",
+      "If your gold is pledged at a bank, pawnshop, or pawnbroker, S Gold can help release it and buy it back for cash.",
     href: "/release-gold",
     badge: "End-to-End Help",
     src: "/2.jpeg",

@@ -4,7 +4,7 @@ import FAQSection from "@/components/FAQSection";
 
 const contactUsFaqs = [
   {
-    question: "How can I contact S-Gold?",
+    question: "How can I contact S Gold?",
     answer: "You can reach us through multiple channels: Phone & WhatsApp at +91 99969 09999 and +91 91664 64916, or email us at support@s-gold.in.",
   },
   {
@@ -29,112 +29,112 @@ const allBranches = [
   {
     city: "Biramguda / Ameenpur",
     address: "First floor, House no 12, 65/B, Ammenpur Biramguda Rd, opposite Mro office, Hyderabad, Telangana 502032",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Biramguda+Ameenpur"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Biramguda+Ameenpur"
   },
   {
     city: "Shamshabad",
     address: "H.No. 22-57/1/E/D, Shamshabad Village, above Radhe tiles & Sanitory, Rallaguda, Hyderabad, Telangana 509325",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Shamshabad"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Shamshabad"
   },
   {
     city: "Manikonda",
     address: "Flat No. 402, 4th Floor, BRS Plaza, Lanco Hills Rd, Shivapuri Colony, Hanuman Nagar, Shirdi Sai Nagar, Manikonda, Hyderabad, Telangana 500089",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Manikonda"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Manikonda"
   },
   {
     city: "Kukatpally (Phase VI)",
     address: "1st Floor, 15/24/12, LIG 39/4, Phase VI LIG Flats, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500072",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Kukatpally+Phase+VI"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Kukatpally+Phase+VI"
   },
   {
     city: "Dilshuknagar",
     address: "1st Floor, Sathya Sadhan, Pillar no 4-102, Durga Nagar, Krishna Nagar, Dilsukhnagar, Hyderabad, Telangana 500060",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Dilshuknagar"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Dilshuknagar"
   },
   {
     city: "Balkampet",
     address: "first floor, Shop No. 7, 1-393, Balkampet Rd, near Sr Nagar, Balkampet, Hyderabad, Telangana 500038",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Balkampet"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Balkampet"
   },
   {
     city: "Chaitanyapuri",
     address: "No.5, X, 13-16-29, 1st Floor, Shop, 103, Road, Chaitanyapuri Main Rd, opposite Sanjay Super Market, P & T Colony, Dilsukhnagar, Hyderabad, Telangana 500060",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Chaitanyapuri"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Chaitanyapuri"
   },
   {
     city: "Narsingi",
     address: "Shop no 2, First Floor, X Road, opp. Muthoot Fincorp, Manchirevula, Narsingi, Hyderabad, Telangana 500089",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Narsingi"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Narsingi"
   },
   {
     city: "Uppal",
     address: "First floor, H.No. 10-26/1, Uppal Main Rd, opp. Sai Jyothi Eye Hospital, Beerappagadda, Uppal, Hyderabad, Telangana 500039",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Uppal"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Uppal"
   },
   {
     city: "Chakripuram (ECIL)",
     address: "First Floor, Shutter No.1, H.No. 1-10-218/7, Chakripuram Rd, above Sri Raja Rajeshwari Book Depot, ECIL, Post, Kushaiguda, Hyderabad, Secunderabad, Telangana 500062",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Chakripuram"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Chakripuram"
   },
   {
     city: "Bowenpally",
     address: "Shop no. 10, 1st Floor, PNR Complex, above Mahaveera Tiffins & Meals, opp. Kotak Mahindra Bank, Trillinga Colony, Tar Bund, Bowenpally, Hyderabad, Secunderabad, Telangana 500009",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Bowenpally"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Bowenpally"
   },
   {
     city: "Habsiguda",
     address: "1st Floor, 1-7-40/3, Street No. 8, above IFB Point, opp. Axis Bank, Satyanarayana Swamy Nagar, Habsiguda, Hyderabad, Telangana 500013",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Habsiguda"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Habsiguda"
   },
   {
     city: "Nallagandla",
     address: "First Floor, H.No, 5-5, opp. Sancta Maria International School, Adarsh Nagar, Serilingampalle (M), Hyderabad, Telangana 500019",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Nallagandla"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Nallagandla"
   },
   {
     city: "Khairatabad",
     address: "Plot No. 6, nilayam, Siva Sai Apartment, 2-198/3, Khairatabad Rd, opp. SBI Bank, Khairtabad, Hyderabad, Telangana 500004",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Khairatabad"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Khairatabad"
   },
   {
     city: "Karwan",
     address: "Jaffar Guda, Satyanarayan Nagar, Gudimalkapur, Hyderabad, Telangana 500006",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Karwan"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Karwan"
   },
   {
     city: "Jubilee Hills",
     address: "2nd Floor, Empire Square, Road No. 36, Jawahar Colony, Jubilee Hills, Hyderabad, Telangana 500033",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Jubilee+Hills"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Jubilee+Hills"
   },
   {
     city: "Kukatpally (Shanthi Nagar)",
     address: "2, first, B J P Office, H.No. 5-1-27, beside Crystal Beauty and Wellness Spa, opp. Reliance Digital, Shanthi Nagar, Kukatpally, Hyderabad, Telangana 500072",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Kukatpally+Shanthi+Nagar"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Kukatpally+Shanthi+Nagar"
   },
   {
     city: "Vanasthalipuram",
     address: "Ground Floor, 5-5-303, Plot No. 136, next to Tupper ware Shop, opp. to Vijaya Diagnostic Center, Vanasthalipuram, Hyderabad, Telangana 500070",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Vanasthalipuram"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Vanasthalipuram"
   },
   {
     city: "LB Nagar",
     address: "201 2nd Floor, Amritha Pride, Plot no. 11-14-518/1, Siris Rd, above HP Gas Samantha Shiva Sakthi Enterprises, Sirinagar Colony, Snehapuri Colony, L. B. Nagar, Hyderabad, Telangana 500074",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+LB+Nagar"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+LB+Nagar"
   },
   {
     city: "AS Rao Nagar",
     address: "1-1-261/119, Post, Srinivasa Nagar Colony, Kapra, ECIL, Hyderabad, Telangana 500062",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+AS+Rao+Nagar"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+AS+Rao+Nagar"
   },
   {
     city: "Suchitra",
     address: "27, Vennelagudda, H No. 6, Suchitra Rd, opp. to FB cakes, next to Green Trends Building, Suchitra, Godavari Homes, Quthbullapur, Hyderabad, Telangana 500067",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Suchitra"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Suchitra"
   },
   {
     city: "Anandbagh",
     address: "H.No. 23-216, 1st Floor, Above Optical Planet, RK Nagar, X Road, Anandbagh, Malkajgiri, Hyderabad, Telangana 500047",
-    mapUrl: "https://www.google.com/maps/search/S-Gold+Anandbagh"
+    mapUrl: "https://www.google.com/maps/search/S+Gold+Anandbagh"
   }
 ];
 

@@ -23,7 +23,7 @@ export default function VanasthalipuramLocationPage() {
   const faqs = [
     {
       question: "I will get a better price if I go to the shop where I bought it?",
-      answer: "This is rarely true. Most jewelers deduct 'wastage' and 'making charges'. S-Gold pays based on the International Market Value, often resulting in a higher payout."
+      answer: "This is rarely true. Most jewelers deduct 'wastage' and 'making charges'. S Gold pays based on the International Market Value, often resulting in a higher payout."
     },
     {
       question: "Selling gold is a sign of financial failure?",
@@ -79,7 +79,7 @@ export default function VanasthalipuramLocationPage() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">Trusted by the Vanasthalipuram Community</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
-              In a community of long-term residents, trust is the most important currency. S-Gold sets a new standard of transparency, offering non-destructive testing and private cabins for your comfort.
+              In a community of long-term residents, trust is the most important currency. S Gold sets a new standard of transparency, offering non-destructive testing and private cabins for your comfort.
             </p>
             <ul className="mt-8 space-y-4">
               {[
@@ -101,7 +101,7 @@ export default function VanasthalipuramLocationPage() {
           </div>
 
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
-            <h3 className="text-2xl font-bold text-text-primary">The S-Gold Advantage</h3>
+            <h3 className="text-2xl font-bold text-text-primary">The S Gold Advantage</h3>
             <div className="mt-8 space-y-6">
               {[
                 "Laser XRF Technology (Non-destructive)",
@@ -183,7 +183,7 @@ export default function VanasthalipuramLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Vanasthalipuram</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Vanasthalipuram</h2>
               <p className="mt-4 text-lg text-text-secondary">Get the best value for your gold today.</p>
 
               <div className="mt-10 space-y-8">
@@ -257,7 +257,7 @@ export default function VanasthalipuramLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

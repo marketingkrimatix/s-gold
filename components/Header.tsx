@@ -97,7 +97,7 @@ export default function Header() {
 
             <div>
               <p className="text-lg font-semibold tracking-wide text-[var(--color-text-primary)]">
-                S-Gold
+                S Gold
               </p>
               <p className="text-xs uppercase tracking-[0.28em] text-[var(--color-brand-gold)]">
                 Gold Buyers
@@ -128,9 +128,8 @@ export default function Header() {
                       </span>
 
                       <svg
-                        className={`h-4 w-4 text-[var(--color-text-secondary)] transition-all duration-300 group-hover:text-[var(--color-brand-gold-soft)] ${
-                          desktopOpenMenu === item.label ? "rotate-180" : ""
-                        }`}
+                        className={`h-4 w-4 text-[var(--color-text-secondary)] transition-all duration-300 group-hover:text-[var(--color-brand-gold-soft)] ${desktopOpenMenu === item.label ? "rotate-180" : ""
+                          }`}
                         viewBox="0 0 20 20"
                         fill="none"
                         stroke="currentColor"
@@ -147,11 +146,10 @@ export default function Header() {
                     <div className="absolute left-0 top-full h-4 w-72" />
 
                     <div
-                      className={`absolute left-0 top-[calc(100%+12px)] z-50 w-72 origin-top rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-surface)] p-3 shadow-[0_24px_80px_rgba(0,0,0,0.20)] transition-all duration-200 ${
-                        desktopOpenMenu === item.label
+                      className={`absolute left-0 top-[calc(100%+12px)] z-50 w-72 origin-top rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-surface)] p-3 shadow-[0_24px_80px_rgba(0,0,0,0.20)] transition-all duration-200 ${desktopOpenMenu === item.label
                           ? "pointer-events-auto visible translate-y-0 opacity-100"
                           : "pointer-events-none invisible -translate-y-2 opacity-0"
-                      }`}
+                        }`}
                     >
                       <Link
                         href={item.href}
@@ -272,19 +270,16 @@ export default function Header() {
 
               <div className="relative h-4 w-5">
                 <span
-                  className={`absolute left-0 top-0 h-0.5 w-5 origin-center rounded-full bg-current transition-all duration-300 ${
-                    mobileMenuOpen ? "translate-y-[7px] rotate-45" : ""
-                  }`}
+                  className={`absolute left-0 top-0 h-0.5 w-5 origin-center rounded-full bg-current transition-all duration-300 ${mobileMenuOpen ? "translate-y-[7px] rotate-45" : ""
+                    }`}
                 />
                 <span
-                  className={`absolute left-0 top-[7px] h-0.5 w-5 rounded-full bg-current transition-all duration-300 ${
-                    mobileMenuOpen ? "opacity-0" : "opacity-100"
-                  }`}
+                  className={`absolute left-0 top-[7px] h-0.5 w-5 rounded-full bg-current transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : "opacity-100"
+                    }`}
                 />
                 <span
-                  className={`absolute left-0 top-[14px] h-0.5 w-5 origin-center rounded-full bg-current transition-all duration-300 ${
-                    mobileMenuOpen ? "-translate-y-[7px] -rotate-45" : ""
-                  }`}
+                  className={`absolute left-0 top-[14px] h-0.5 w-5 origin-center rounded-full bg-current transition-all duration-300 ${mobileMenuOpen ? "-translate-y-[7px] -rotate-45" : ""
+                    }`}
                 />
               </div>
             </button>
@@ -293,9 +288,8 @@ export default function Header() {
 
         {/* Mobile / tablet panel */}
         <div
-          className={`overflow-hidden transition-all duration-300 lg:hidden ${
-            mobileMenuOpen ? "max-h-[700px] opacity-100" : "max-h-0 opacity-0"
-          }`}
+          className={`overflow-hidden transition-all duration-300 lg:hidden ${mobileMenuOpen ? "max-h-[700px] opacity-100" : "max-h-0 opacity-0"
+            }`}
         >
           <div className="border-t border-[var(--color-divider)] bg-[var(--color-header-bg)]/95 px-4 pb-4 pt-4 backdrop-blur-2xl sm:px-6">
             <div className="rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-card-bg)] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.14)]">
@@ -324,9 +318,8 @@ export default function Header() {
                             className="flex h-11 w-11 items-center justify-center rounded-2xl text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)]"
                           >
                             <svg
-                              className={`h-4 w-4 transition-transform duration-300 ${
-                                mobileOpenMenu === item.label ? "rotate-180" : ""
-                              }`}
+                              className={`h-4 w-4 transition-transform duration-300 ${mobileOpenMenu === item.label ? "rotate-180" : ""
+                                }`}
                               viewBox="0 0 20 20"
                               fill="none"
                               stroke="currentColor"
@@ -342,11 +335,10 @@ export default function Header() {
                         </div>
 
                         <div
-                          className={`grid transition-all duration-300 ${
-                            mobileOpenMenu === item.label
+                          className={`grid transition-all duration-300 ${mobileOpenMenu === item.label
                               ? "grid-rows-[1fr] opacity-100"
                               : "grid-rows-[0fr] opacity-70"
-                          }`}
+                            }`}
                         >
                           <div className="overflow-hidden">
                             <div className="mt-1 space-y-1 pl-3">
@@ -413,11 +405,10 @@ export default function Header() {
         type="button"
         aria-label="Close menu overlay"
         onClick={closeMenu}
-        className={`fixed inset-0 z-40 bg-black/30 backdrop-blur-[2px] transition-opacity duration-300 lg:hidden ${
-          mobileMenuOpen
+        className={`fixed inset-0 z-40 bg-black/30 backdrop-blur-[2px] transition-opacity duration-300 lg:hidden ${mobileMenuOpen
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0"
-        }`}
+          }`}
       />
     </>
   );

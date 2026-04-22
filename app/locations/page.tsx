@@ -131,7 +131,7 @@ const locationsFaqs = [
     "answer": "Our head office is located at Plot No. 6-2-198/3, Siva Sai Nilayam, Khairatabad, Hyderabad. Opposite SBI Bank."
   },
   {
-    "question": "How many branches does S-Gold have in Hyderabad?",
+    "question": "How many branches does S Gold have in Hyderabad?",
     "answer": "We have 20+ branches across Hyderabad, including major areas like Khairatabad, Kukatpally, Jubilee Hills, Manikonda, Dilshuknagar, and LB Nagar."
   },
   {
@@ -154,14 +154,14 @@ export default function LocationsPage() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       <section className="px-6 py-20 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
           <p className="text-sm uppercase tracking-[0.25em] text-brand-gold">
             Our Branches
           </p>
           <h1 className="mt-4 text-4xl font-bold text-text-primary lg:text-5xl">
-            Find an S-Gold near you
+            Find an S Gold near you
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-text-tertiary">
             Visit any of our convenient locations for a free, transparent valuation in a highly secure environment.
@@ -169,24 +169,24 @@ export default function LocationsPage() {
         </div>
 
         <div className="mx-auto mt-16 max-w-7xl grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-           {branches.map(branch => (
-             <div key={branch.city} className="flex flex-col rounded-2xl border border-card-border bg-card-bg p-8 transition hover:border-card-border-hover hover:bg-card-bg-hover">
-                <h3 className="text-xl font-semibold text-text-primary">{branch.city}</h3>
-                <p className="mt-4 text-sm leading-relaxed text-text-tertiary flex-grow">
-                  {branch.address}
-                </p>
-                <div className="mt-8 flex flex-wrap items-center gap-6">
-                  <a href={`tel:${branch.phone}`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-gold hover:text-brand-gold-soft">
-                     {branch.phone}
-                  </a>
-                  {branch.slug && (
-                    <Link href={`/locations/${branch.slug}`} className="text-sm font-medium text-text-primary underline decoration-brand-gold/40 underline-offset-4 hover:decoration-brand-gold">
-                      View Details →
-                    </Link>
-                  )}
-                </div>
-             </div>
-           ))}
+          {branches.map(branch => (
+            <div key={branch.city} className="flex flex-col rounded-2xl border border-card-border bg-card-bg p-8 transition hover:border-card-border-hover hover:bg-card-bg-hover">
+              <h3 className="text-xl font-semibold text-text-primary">{branch.city}</h3>
+              <p className="mt-4 text-sm leading-relaxed text-text-tertiary flex-grow">
+                {branch.address}
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-6">
+                <a href={`tel:${branch.phone}`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-gold hover:text-brand-gold-soft">
+                  {branch.phone}
+                </a>
+                {branch.slug && (
+                  <Link href={`/locations/${branch.slug}`} className="text-sm font-medium text-text-primary underline decoration-brand-gold/40 underline-offset-4 hover:decoration-brand-gold">
+                    View Details →
+                  </Link>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
         <div className="mx-auto mt-24 max-w-7xl">
           <h2 className="text-2xl font-bold text-text-primary text-center">Other Cities</h2>
@@ -196,8 +196,8 @@ export default function LocationsPage() {
               { city: "Warangal", slug: "warangal", address: "Adalath Centre, Hanamkonda, Warangal, Telangana 506001" },
               { city: "Karimnagar", slug: "karimnagar", address: "Mukarampura, Karimnagar, Telangana 505001" }
             ].map(city => (
-              <Link 
-                key={city.city} 
+              <Link
+                key={city.city}
                 href={`/locations/${city.slug}`}
                 className="group rounded-2xl border border-card-border bg-card-bg p-6 transition hover:border-brand-gold/30 hover:bg-card-bg-hover"
               >
@@ -210,7 +210,7 @@ export default function LocationsPage() {
         </div>
       </section>
       <FAQSection faqs={locationsFaqs} />
-      
+
 
       <Footer />
     </main>

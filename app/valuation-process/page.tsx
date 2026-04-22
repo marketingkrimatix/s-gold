@@ -36,13 +36,13 @@ export default function ValuationProcess() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       {/* Hero */}
       <section className="relative px-6 py-24 lg:px-8 text-center overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-brand-gold/10 blur-[120px]" />
         </div>
-        
+
         <div className="mx-auto max-w-3xl">
           <span className="shimmer-gold rounded-full border border-gold-accent-border px-4 py-2 text-xs font-bold uppercase tracking-widest text-brand-gold-soft">
             Trust Protocol
@@ -52,7 +52,7 @@ export default function ValuationProcess() {
             <span className="bg-gradient-to-r from-brand-gold-soft via-brand-gold to-brand-gold-rich bg-clip-text text-transparent">Your Assets</span>
           </h1>
           <p className="mt-6 text-xl text-text-secondary leading-8">
-            At S-Gold, valuation isn't a secret. It's a science. We combine technology, 
+            At S Gold, valuation isn't a secret. It's a science. We combine technology,
             market data, and complete transparency to ensure you get the absolute best price.
           </p>
         </div>
@@ -79,9 +79,9 @@ export default function ValuationProcess() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">XRF Technology vs. Traditional Methods</h2>
             <p className="mt-6 text-text-secondary leading-8">
-              Most local buyers still use the "Acid Test" or "Touchstone" method, which is subjective and can damage your jewellery. At S-Gold, we believe in scientific precision.
+              Most local buyers still use the "Acid Test" or "Touchstone" method, which is subjective and can damage your jewellery. At S Gold, we believe in scientific precision.
             </p>
-            
+
             <div className="mt-10 space-y-6">
               <div className="flex gap-4 p-5 rounded-2xl border border-card-border bg-card-bg/50">
                 <div className="text-red-400 text-xl">✕</div>
@@ -93,20 +93,20 @@ export default function ValuationProcess() {
               <div className="flex gap-4 p-5 rounded-2xl border border-brand-gold/20 bg-brand-gold/5">
                 <div className="text-green-400 text-xl">✓</div>
                 <div>
-                  <h4 className="font-bold text-brand-gold-soft">S-Gold XRF Analysis</h4>
+                  <h4 className="font-bold text-brand-gold-soft">S Gold XRF Analysis</h4>
                   <p className="text-sm text-text-tertiary">Non-destructive X-Ray Fluorescence provides a printed report of every metal present (Silver, Copper, etc.) alongside the exact gold percentage.</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="relative rounded-[2.5rem] overflow-hidden border border-card-border shadow-2xl">
-             <div className="absolute inset-0 bg-gradient-to-br from-brand-gold/20 to-transparent z-10" />
-             <div className="aspect-square bg-[#0a0510] flex items-center justify-center p-12">
-                <div className="text-center">
-                   <div className="text-6xl mb-4">🔬</div>
-                   <p className="text-brand-gold font-mono text-sm tracking-tighter uppercase">High Precision Spectrum Analysis</p>
-                </div>
-             </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-brand-gold/20 to-transparent z-10" />
+            <div className="aspect-square bg-[#0a0510] flex items-center justify-center p-12">
+              <div className="text-center">
+                <div className="text-6xl mb-4">🔬</div>
+                <p className="text-brand-gold font-mono text-sm tracking-tighter uppercase">High Precision Spectrum Analysis</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function ValuationProcess() {
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           <div className="rounded-[3rem] border border-gold-accent-border bg-gradient-to-br from-gradient-section-from to-gradient-section-to p-8 md:p-16 shadow-2xl">
             <h2 className="text-3xl font-bold text-text-primary text-center mb-12">The Transparency Math</h2>
-            
+
             <div className="space-y-8">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-6 rounded-3xl border border-card-border bg-card-bg">
                 <div>
@@ -129,7 +129,7 @@ export default function ValuationProcess() {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-6 rounded-3xl border border-card-border bg-card-bg">
                 <div>
                   <h3 className="text-xl font-bold text-red-400">02. Impurity Deduction</h3>
-                  <p className="text-text-secondary mt-1">XRF testing determines the exact gold content. Stones/Beads are excluded from weight.</p>
+                  <p className="text-text-secondary mt-1">XRF testing determines the exact gold content. Stones/Beads are excluded.</p>
                 </div>
                 <div className="text-3xl font-bold text-red-400">- Purity Loss</div>
               </div>
@@ -142,12 +142,12 @@ export default function ValuationProcess() {
                 <div className="text-3xl font-bold text-brand-gold">= Your Cash</div>
               </div>
             </div>
-            
+
             <div className="mt-12 p-8 rounded-3xl border border-dashed border-gold-accent-border text-center">
-               <h4 className="text-lg font-bold text-text-primary">Our Valuation Guarantee</h4>
-               <p className="mt-2 text-sm text-text-tertiary max-w-xl mx-auto">
-                 If you find a better documented quote for the same purity and weight on the same day, we promise to match or beat it. We are committed to being the highest payer in the region.
-               </p>
+              <h4 className="text-lg font-bold text-text-primary">Our Valuation Guarantee</h4>
+              <p className="mt-2 text-sm text-text-tertiary max-w-xl mx-auto">
+                If you find a better documented quote for the same purity and weight on the same day, we promise to match or beat it. We are committed to being the highest payer in the region.
+              </p>
             </div>
           </div>
         </div>

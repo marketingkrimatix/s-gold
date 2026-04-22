@@ -22,14 +22,14 @@ export default function HabsigudaLocationPage() {
   const faqs = [
     {
       question: "What is today’s gold rate in Habsiguda?",
-      answer: "Gold prices change daily based on market conditions. At S-Gold Habsiguda, gold is evaluated using the live market rate at the time of testing."
+      answer: "Gold prices change daily based on market conditions. At S Gold Habsiguda, gold is evaluated using the live market rate at the time of testing."
     },
     {
       question: "Can I sell broken or damaged gold jewellery here?",
       answer: "Yes, we buy gold in all conditions, including broken chains, single earrings, or old scrap gold, based on its pure metal content."
     },
     {
-      question: "Is instant cash available at S-Gold Habsiguda?",
+      question: "Is instant cash available at S Gold Habsiguda?",
       answer: "Yes, we provide instant cash for your gold (within government limits) or same-day bank transfers for your convenience."
     },
     {
@@ -59,7 +59,7 @@ export default function HabsigudaLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            A trusted gold-buying landmark in East Hyderabad. S-Gold Habsiguda offers a transparent, secure, and hassle-free experience for residents, professionals, and students alike.
+            A trusted gold-buying landmark in East Hyderabad. S Gold Habsiguda offers a transparent, secure, and hassle-free experience for residents, professionals, and students alike.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -182,7 +182,7 @@ export default function HabsigudaLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Habsiguda Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Habsiguda Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Experience city-grade transparency in your neighborhood.</p>
 
               <div className="mt-10 space-y-8">
@@ -256,7 +256,7 @@ export default function HabsigudaLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

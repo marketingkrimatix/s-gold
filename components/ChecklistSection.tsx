@@ -33,8 +33,8 @@ export default function ChecklistSection() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-gold">Preparation</p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">What to Bring With You</h2>
           <p className="mt-4 text-text-secondary max-w-2xl mx-auto">
-            To ensure a smooth and instant transaction, please carry the following documents 
-            when you visit our S-Gold branch.
+            To ensure a smooth and instant transaction, please carry the following documents
+            when you visit our S Gold branch.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function ChecklistSection() {
             </motion.div>
           ))}
         </div>
-        
+
         <div className="mt-12 rounded-2xl border border-gold-accent-border bg-gold-accent-bg p-6 text-center">
           <p className="text-sm font-medium text-text-primary">
             💡 <span className="text-brand-gold-soft">Pro Tip:</span> Bringing the original purchase invoice can often help us provide an even better valuation for your gold.

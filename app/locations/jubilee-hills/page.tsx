@@ -60,7 +60,7 @@ export default function JubileeHillsLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            The gold standard for Hyderabad’s elite. S-Gold provides a bespoke, corporate environment for liquidating high-value heirloom sets, luxury watches, and investment bullion.
+            The gold standard for Hyderabad’s elite. S Gold provides a bespoke, corporate environment for liquidating high-value heirloom sets, luxury watches, and investment bullion.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -183,7 +183,7 @@ export default function JubileeHillsLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Jubilee Hills</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Jubilee Hills</h2>
               <p className="mt-4 text-lg text-text-secondary">Refined asset liquidation for a premium lifestyle.</p>
 
               <div className="mt-10 space-y-8">
@@ -257,7 +257,7 @@ export default function JubileeHillsLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

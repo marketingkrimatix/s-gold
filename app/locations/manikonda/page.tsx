@@ -23,7 +23,7 @@ export default function ManikondaLocationPage() {
   const faqs = [
     {
       question: "Where can I sell gold near Puppalaguda in Manikonda?",
-      answer: "You can visit S-Gold for a quick evaluation and instant payment. We serve customers from Puppalaguda, Lanco Hills, and Alkapur Township."
+      answer: "You can visit S Gold for a quick evaluation and instant payment. We serve customers from Puppalaguda, Lanco Hills, and Alkapur Township."
     },
     {
       question: "Is Manikonda a good area to sell gold for IT professionals?",
@@ -60,7 +60,7 @@ export default function ManikondaLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Looking to sell gold in Manikonda without delays? S-Gold offers a fast, secure, and transparent way to convert your gold into instant cash, trusted by residents across IT hubs.
+            Looking to sell gold in Manikonda without delays? S Gold offers a fast, secure, and transparent way to convert your gold into instant cash, trusted by residents across IT hubs.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -101,7 +101,7 @@ export default function ManikondaLocationPage() {
           </div>
 
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
-            <h3 className="text-2xl font-bold text-text-primary">Why Manikonda Chooses S-Gold</h3>
+            <h3 className="text-2xl font-bold text-text-primary">Why Manikonda Chooses S Gold</h3>
             <div className="mt-8 space-y-6">
               {[
                 "No interest burden or repayment stress",
@@ -128,20 +128,20 @@ export default function ManikondaLocationPage() {
             <p className="mt-4 text-text-secondary">Serving you at two convenient locations.</p>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
-             <div className="rounded-3xl border border-card-border bg-card-bg p-8">
-                <h3 className="text-xl font-bold text-brand-gold">📍 Branch 1 – O U Colony, Shaikpet</h3>
-                <p className="mt-4 text-sm text-text-secondary leading-relaxed">
-                  1st Floor, Shop No. 8, 8-1-284/OU/144, O U Colony, Shaikpet, Manikonda, Hyderabad, Telangana – 500008 <br />
-                  <strong>Landmark:</strong> Opposite Trusmile Dental Care
-                </p>
-             </div>
-             <div className="rounded-3xl border border-card-border bg-card-bg p-8">
-                <h3 className="text-xl font-bold text-brand-gold">📍 Branch 2 – Lanco Hills Road</h3>
-                <p className="mt-4 text-sm text-text-secondary leading-relaxed">
-                  Flat No. 402, 4th Floor, BRS Plaza, Hanuman Nagar, Lanco Hills Road, Manikonda, Hyderabad, Telangana – 500089 <br />
-                  <strong>Landmark:</strong> Near Lanco Hills Road / Hanuman Nagar
-                </p>
-             </div>
+            <div className="rounded-3xl border border-card-border bg-card-bg p-8">
+              <h3 className="text-xl font-bold text-brand-gold">📍 Branch 1 – O U Colony, Shaikpet</h3>
+              <p className="mt-4 text-sm text-text-secondary leading-relaxed">
+                1st Floor, Shop No. 8, 8-1-284/OU/144, O U Colony, Shaikpet, Manikonda, Hyderabad, Telangana – 500008 <br />
+                <strong>Landmark:</strong> Opposite Trusmile Dental Care
+              </p>
+            </div>
+            <div className="rounded-3xl border border-card-border bg-card-bg p-8">
+              <h3 className="text-xl font-bold text-brand-gold">📍 Branch 2 – Lanco Hills Road</h3>
+              <p className="mt-4 text-sm text-text-secondary leading-relaxed">
+                Flat No. 402, 4th Floor, BRS Plaza, Hanuman Nagar, Lanco Hills Road, Manikonda, Hyderabad, Telangana – 500089 <br />
+                <strong>Landmark:</strong> Near Lanco Hills Road / Hanuman Nagar
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function ManikondaLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

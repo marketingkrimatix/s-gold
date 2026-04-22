@@ -23,7 +23,7 @@ export default function KarwanLocationPage() {
 
   const faqs = [
     {
-      question: "Where exactly is the S-Gold branch in Karwan?",
+      question: "Where exactly is the S Gold branch in Karwan?",
       answer: "We are located in a prominent area of Karwan, close to the Karwan Post Office and the main commercial road, ensuring safe and easy access."
     },
     {
@@ -61,7 +61,7 @@ export default function KarwanLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Bringing transparency to a historic neighborhood. S-Gold Karwan offers a professional, corporate environment where your assets are valued with scientific precision.
+            Bringing transparency to a historic neighborhood. S Gold Karwan offers a professional, corporate environment where your assets are valued with scientific precision.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -80,7 +80,7 @@ export default function KarwanLocationPage() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">Eliminating Guesswork in Valuation</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
-              While traditional goldsmiths are part of Karwan's charm, they often lack the technology for accurate valuation. S-Gold replaces the 'deduction culture' with scientific mapping and molecular-level scanning.
+              While traditional goldsmiths are part of Karwan's charm, they often lack the technology for accurate valuation. S Gold replaces the 'deduction culture' with scientific mapping and molecular-level scanning.
             </p>
             <ul className="mt-8 space-y-4">
               {[
@@ -125,7 +125,7 @@ export default function KarwanLocationPage() {
       <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-text-primary">The S-Gold 5-Point Scientific Process</h2>
+            <h2 className="text-3xl font-bold text-text-primary">The S Gold 5-Point Scientific Process</h2>
             <p className="mt-4 text-text-secondary">Everything happens right before your eyes.</p>
           </div>
           <div className="mt-16 grid gap-8 md:grid-cols-5">
@@ -168,7 +168,7 @@ export default function KarwanLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Karwan Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Karwan Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Dignified, professional, and highly profitable gold-selling.</p>
 
               <div className="mt-10 space-y-8">
@@ -242,7 +242,7 @@ export default function KarwanLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

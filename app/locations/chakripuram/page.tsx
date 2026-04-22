@@ -23,7 +23,7 @@ export default function ChakripuramLocationPage() {
 
   const faqs = [
     {
-      question: "Where exactly is the S-Gold branch in Chakripuram?",
+      question: "Where exactly is the S Gold branch in Chakripuram?",
       answer: "We are located at a prominent spot near the Chakripuram Cross Roads, making it convenient for residents of Dammaiguda and Kushaiguda to visit us safely."
     },
     {
@@ -61,7 +61,7 @@ export default function ChakripuramLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Experience transparency and high-value returns. S-Gold brings a corporate, high-tech standard to Chakripuram, bridging the gap for residents in Nagaram, Dammaiguda, and ECIL.
+            Experience transparency and high-value returns. S Gold brings a corporate, high-tech standard to Chakripuram, bridging the gap for residents in Nagaram, Dammaiguda, and ECIL.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -78,7 +78,7 @@ export default function ChakripuramLocationPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="text-3xl font-bold text-text-primary">Why Chakripuram Residents Choose S-Gold</h2>
+            <h2 className="text-3xl font-bold text-text-primary">Why Chakripuram Residents Choose S Gold</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
               We provide city-best rates without the long commute. Our branch uses German-engineered XRF Laser Analyzers to provide a non-destructive, digital breakdown of your gold's purity.
             </p>
@@ -168,7 +168,7 @@ export default function ChakripuramLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S-Gold Chakripuram Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Chakripuram Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Dignified, professional, and highly profitable gold-selling.</p>
 
               <div className="mt-10 space-y-8">
@@ -242,7 +242,7 @@ export default function ChakripuramLocationPage() {
           ))}
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

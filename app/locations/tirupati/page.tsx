@@ -245,7 +245,7 @@ export default function TirupatiLocationPage() {
 
             <div className="h-[400px] overflow-hidden rounded-[2rem] border border-card-border shadow-inner">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.342152349767!2d79.4172776!3d13.6215321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b1a1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2sS-Gold%20Tirupati!5e0!3m2!1sen!2sin!4v1713360000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.342152349767!2d79.4172776!3d13.6215321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b1a1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2sS+Gold%20Tirupati!5e0!3m2!1sen!2sin!4v1713360000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -279,7 +279,7 @@ export default function TirupatiLocationPage() {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </main>
   );

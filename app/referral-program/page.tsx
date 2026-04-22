@@ -23,7 +23,7 @@ export default function ReferralProgram() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       <section className="relative px-6 py-24 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute right-[-10%] top-0 h-96 w-96 rounded-full bg-brand-gold/15 blur-[120px]" />
@@ -32,10 +32,10 @@ export default function ReferralProgram() {
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-gold">Community</p>
           <h1 className="mt-8 text-5xl font-bold tracking-tight text-text-primary sm:text-6xl">
-            S-Gold <span className="text-brand-gold">Referral</span> Program
+            S Gold <span className="text-brand-gold">Referral</span> Program
           </h1>
           <p className="mt-6 text-xl text-text-secondary leading-8">
-            Share the trust, earn the rewards. Help your friends get the best price for their gold 
+            Share the trust, earn the rewards. Help your friends get the best price for their gold
             and earn an instant bonus when they complete a transaction.
           </p>
         </div>
@@ -55,9 +55,9 @@ export default function ReferralProgram() {
           <h2 className="text-3xl font-bold text-text-primary text-center">How to Participate</h2>
           <div className="mt-16 grid gap-10 md:grid-cols-4 relative">
             <div className="hidden md:block absolute top-12 left-0 w-full h-px border-t border-dashed border-gold-accent-border -z-10" />
-            
+
             {[
-              { step: "01", title: "Get Your Code", desc: "Visit any S-Gold branch and ask for your unique referral ID." },
+              { step: "01", title: "Get Your Code", desc: "Visit any S Gold branch and ask for your unique referral ID." },
               { step: "02", title: "Share with Friends", desc: "Give your code to friends looking to sell gold or release pledges." },
               { step: "03", title: "They Transact", desc: "When they use your code during their transaction, our system logs it." },
               { step: "04", title: "You Get Paid", desc: "Receive your referral bonus instantly via UPI or bank transfer." }
@@ -77,7 +77,7 @@ export default function ReferralProgram() {
           <h2 className="text-3xl font-bold text-text-primary text-center mb-12">Referral FAQ</h2>
           <div className="space-y-6">
             {[
-              { q: "Who can join the program?", a: "Anyone who has successfully transacted with S-Gold or is a registered member can join." },
+              { q: "Who can join the program?", a: "Anyone who has successfully transacted with S Gold or is a registered member can join." },
               { q: "When do I receive the payout?", a: "Referral bonuses are processed within 24 hours of the referred customer completing their transaction." },
               { q: "Is there a limit to referrals?", a: "No! You can refer as many people as you want and earn for every single successful transaction." }
             ].map((faq, i) => (
@@ -92,7 +92,7 @@ export default function ReferralProgram() {
         <div className="mt-20 rounded-[3rem] border border-gold-accent-border bg-gradient-to-r from-brand-primary/20 to-brand-gold/10 p-12 text-center">
           <h2 className="text-3xl font-bold text-text-primary">Ready to start referring?</h2>
           <p className="mt-4 text-text-secondary max-w-2xl mx-auto">
-            Contact your nearest branch to get your unique referral code and start earning today. 
+            Contact your nearest branch to get your unique referral code and start earning today.
             Rewards are processed instantly upon successful transactions.
           </p>
           <div className="mt-10">

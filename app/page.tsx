@@ -73,7 +73,7 @@ const homepageFaqs = [
     question: "Is there any hidden fee?",
     answer: "No, we believe in a fully transparent process. The evaluation is free, and there are absolutely no hidden charges or deductions from our final quote.",
   },
-  
+
 ];
 
 export default function HomePage() {
@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="fade-up">
 
             <HeroExchangeMobile />
-            
+
             <div className="shimmer-gold mb-6 inline-flex rounded-full border border-gold-accent-border px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-brand-gold-soft">
               Trusted Gold Buyers in Hyderabad
             </div>
@@ -241,80 +241,80 @@ export default function HomePage() {
 
       <ClipPolygonCTA />
 
-    <section className="relative overflow-hidden bg-[var(--color-section-bg)] px-6 py-16 sm:py-20 lg:px-8">
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute left-[-8%] top-8 h-64 w-64 rounded-full bg-[var(--color-gold-accent-bg)] blur-3xl" />
-        <div className="absolute right-[-10%] top-24 h-72 w-72 rounded-full bg-[color:var(--brand-primary)]/10 blur-3xl" />
-      </div>
-
-      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
-        <div className="fade-up">
-          <div className="mb-5 inline-flex rounded-full border border-[var(--color-gold-accent-border)] bg-[var(--color-gold-accent-bg)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand-gold)]">
-            Still confused where to sell gold?
-          </div>
-
-          <h2 className="max-w-2xl text-3xl font-semibold leading-tight tracking-tight text-[var(--color-text-primary)] sm:text-4xl lg:text-5xl">
-            Trusted gold selling, made simple and secure.
-          </h2>
-
-          <p className="mt-4 max-w-2xl text-base leading-8 text-[var(--color-text-secondary)] sm:text-lg">
-            Get a free evaluation, a fair spot cash offer, and a smooth process
-            without damage to your jewellery. You can also choose RTGS or IMPS,
-            depending on what works best for you.
-          </p>
-
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[var(--brand-gold-soft)] via-[var(--brand-gold)] to-[var(--brand-gold-rich)] px-6 py-3.5 text-sm font-semibold text-[var(--brand-primary)] shadow-[0_12px_35px_rgba(233,201,98,0.22)] transition duration-300 hover:-translate-y-1"
-            >
-              Get Free Evaluation
-            </Link>
-
-            <Link
-              href="tel:+919996909999"
-              className="inline-flex items-center justify-center rounded-full border border-[var(--color-card-border)] bg-[var(--color-card-bg)] px-6 py-3.5 text-sm font-medium text-[var(--color-text-primary)] backdrop-blur transition duration-300 hover:border-[var(--color-card-border-hover)] hover:bg-[var(--color-card-bg-hover)]"
-            >
-              Call for Free Consultation
-            </Link>
-          </div>
+      <section className="relative overflow-hidden bg-[var(--color-section-bg)] px-6 py-16 sm:py-20 lg:px-8">
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute left-[-8%] top-8 h-64 w-64 rounded-full bg-[var(--color-gold-accent-bg)] blur-3xl" />
+          <div className="absolute right-[-10%] top-24 h-72 w-72 rounded-full bg-[color:var(--brand-primary)]/10 blur-3xl" />
         </div>
 
-        <div className="fade-up-delay-1">
-  <div className="rounded-[2rem] border border-[var(--color-card-border)] bg-[var(--color-card-bg)] p-5 shadow-[0_24px_70px_rgba(0,0,0,0.12)] backdrop-blur-xl sm:p-6">
-    <div className="grid gap-3 sm:grid-cols-2">
-      {points.map((point, index) => (
-        <div
-          key={point}
-          className="hover-lift flex min-h-[78px] items-start gap-3 rounded-2xl border border-[var(--color-card-border)] bg-[var(--color-surface)] px-4 py-2.5"
-        >
-          <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--color-gold-accent-bg)] text-xs font-semibold text-[var(--brand-gold-rich)]">
-            {String(index + 1).padStart(2, "0")}
-          </div>
-          <p className="text-sm leading-6 text-[var(--color-text-secondary)]">
-            {point}
-          </p>
-        </div>
-      ))}
-    </div>
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+          <div className="fade-up">
+            <div className="mb-5 inline-flex rounded-full border border-[var(--color-gold-accent-border)] bg-[var(--color-gold-accent-bg)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand-gold)]">
+              Still confused where to sell gold?
+            </div>
 
-    <div className="mt-5 rounded-2xl border border-[var(--color-gold-accent-border)] bg-[var(--color-gold-accent-bg)] px-4 py-4">
-      <p className="text-sm font-medium text-[var(--color-text-primary)]">
-        Why customers trust us
-      </p>
-      <p className="mt-1.5 text-sm leading-6 text-[var(--color-text-secondary)]">
-        Transparent evaluation, secure handling, and payout options that match your comfort and convenience.
-      </p>
-    </div>
-  </div>
-</div>
-      </div>
-    </section>
+            <h2 className="max-w-2xl text-3xl font-semibold leading-tight tracking-tight text-[var(--color-text-primary)] sm:text-4xl lg:text-5xl">
+              Trusted gold selling, made simple and secure.
+            </h2>
+
+            <p className="mt-4 max-w-2xl text-base leading-8 text-[var(--color-text-secondary)] sm:text-lg">
+              Get a free evaluation, a fair spot cash offer, and a smooth process
+              without damage to your jewellery. You can also choose RTGS or IMPS,
+              depending on what works best for you.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link
+                href="#contact"
+                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[var(--brand-gold-soft)] via-[var(--brand-gold)] to-[var(--brand-gold-rich)] px-6 py-3.5 text-sm font-semibold text-[var(--brand-primary)] shadow-[0_12px_35px_rgba(233,201,98,0.22)] transition duration-300 hover:-translate-y-1"
+              >
+                Get Free Evaluation
+              </Link>
+
+              <Link
+                href="tel:+919996909999"
+                className="inline-flex items-center justify-center rounded-full border border-[var(--color-card-border)] bg-[var(--color-card-bg)] px-6 py-3.5 text-sm font-medium text-[var(--color-text-primary)] backdrop-blur transition duration-300 hover:border-[var(--color-card-border-hover)] hover:bg-[var(--color-card-bg-hover)]"
+              >
+                Call for Free Consultation
+              </Link>
+            </div>
+          </div>
+
+          <div className="fade-up-delay-1">
+            <div className="rounded-[2rem] border border-[var(--color-card-border)] bg-[var(--color-card-bg)] p-5 shadow-[0_24px_70px_rgba(0,0,0,0.12)] backdrop-blur-xl sm:p-6">
+              <div className="grid gap-3 sm:grid-cols-2">
+                {points.map((point, index) => (
+                  <div
+                    key={point}
+                    className="hover-lift flex min-h-[78px] items-start gap-3 rounded-2xl border border-[var(--color-card-border)] bg-[var(--color-surface)] px-4 py-2.5"
+                  >
+                    <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--color-gold-accent-bg)] text-xs font-semibold text-[var(--brand-gold-rich)]">
+                      {String(index + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-sm leading-6 text-[var(--color-text-secondary)]">
+                      {point}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-5 rounded-2xl border border-[var(--color-gold-accent-border)] bg-[var(--color-gold-accent-bg)] px-4 py-4">
+                <p className="text-sm font-medium text-[var(--color-text-primary)]">
+                  Why customers trust us
+                </p>
+                <p className="mt-1.5 text-sm leading-6 text-[var(--color-text-secondary)]">
+                  Transparent evaluation, secure handling, and payout options that match your comfort and convenience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="why-us" className="mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-12">
         <div className="grid gap-6 rounded-[2rem] border border-card-border bg-card-bg p-6 backdrop-blur-xl md:grid-cols-3">
           <div>
-            <p className="text-sm uppercase tracking-[0.22em] text-brand-gold">Why S-Gold</p>
+            <p className="text-sm uppercase tracking-[0.22em] text-brand-gold">Why S Gold</p>
             <h2 className="mt-3 text-3xl font-semibold text-text-primary">
               Modern trust, not old-style clutter
             </h2>
@@ -360,7 +360,7 @@ export default function HomePage() {
 
             <div className="mt-8 space-y-4">
               {[
-                "Visit your nearest S-Gold branch.",
+                "Visit your nearest S Gold branch.",
                 "Get purity and weight tested transparently in front of you.",
                 "Accept the quote and receive instant payment.",
               ].map((step, index) => (
@@ -438,7 +438,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-<FAQSection faqs={homepageFaqs} />
+      <FAQSection faqs={homepageFaqs} />
       <Footer />
     </main>
   );
