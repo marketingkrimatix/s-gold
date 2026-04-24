@@ -15,7 +15,7 @@ const services = [
     title: "Release Pledged Gold",
     description:
       "If your gold is pledged at a bank, pawnshop, or pawnbroker, S Gold can help release it and buy it back for cash.",
-    href: "/release-gold",
+    href: "/release-pledged-gold",
     badge: "End-to-End Help",
     src: "/2.jpeg",
   },
@@ -78,15 +78,14 @@ export default function ServicesSection() {
 
               <div className="mt-8 flex items-center gap-4">
                 <Link
-                  // href={service.href}
-                  href="#services"
+                  href={service.href}
                   className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-5 py-3 text-sm font-semibold text-[#2A0848] shadow-[0_12px_30px_rgba(233,201,98,0.24)] transition duration-300 hover:scale-[1.02]"
                 >
                   Explore Service
                 </Link>
 
                 <Link
-                  href="#contact"
+                  href="/contact-us"
                   className="inline-flex items-center justify-center rounded-full border border-card-border bg-card-bg px-5 py-3 text-sm font-medium text-text-secondary transition duration-300 hover:border-card-border-hover hover:bg-card-bg-hover"
                 >
                   Get Quote

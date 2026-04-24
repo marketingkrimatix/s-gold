@@ -96,7 +96,7 @@ export default function ReferralProgram() {
             Rewards are processed instantly upon successful transactions.
           </p>
           <div className="mt-10">
-            <a href="/contact-us" className="inline-flex items-center justify-center rounded-full bg-brand-gold px-8 py-4 text-sm font-bold text-brand-primary shadow-lg hover:scale-105 transition">
+            <a href="/contact-us" className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-4 text-sm font-bold text-brand-primary shadow-lg hover:scale-105 transition">
               Get Your Referral Code
             </a>
           </div>

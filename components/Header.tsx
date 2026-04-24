@@ -151,6 +151,8 @@ export default function Header() {
                           : "pointer-events-none invisible -translate-y-2 opacity-0"
                         }`}
                     >
+                      {!(item.label === "Trust") && (
+                        <>
                       <Link
                         href={item.href}
                         className="mb-2 flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-brand-gold)]"
@@ -158,9 +160,12 @@ export default function Header() {
                         <span>All {item.label}</span>
                         <span className="text-[var(--color-brand-gold)]/80">↗</span>
                       </Link>
+                     
 
                       <div className="h-px bg-[var(--color-divider)]" />
-
+                      </>
+                      )}
+                      
                       <div className="mt-2 flex flex-col gap-1">
                         {item.children.map((child) => (
                           <Link

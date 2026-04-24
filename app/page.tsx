@@ -193,9 +193,9 @@ export default function HomePage() {
                 <div className="mt-8 rounded-3xl border border-gold-accent-border bg-gold-accent-bg p-5">
                   <p className="text-sm font-medium text-brand-gold-soft">Today's Gold Rate</p>
                   <p className="mt-2 text-3xl font-semibold text-text-primary">₹ {rate} / gram</p>
-                  <p className="mt-1 text-sm text-text-tertiary">
+                  {/* <p className="mt-1 text-sm text-text-tertiary">
                     Reserve this area for your live gold calculator and estimate tool.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -266,7 +266,7 @@ export default function HomePage() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[var(--brand-gold-soft)] via-[var(--brand-gold)] to-[var(--brand-gold-rich)] px-6 py-3.5 text-sm font-semibold text-[var(--brand-primary)] shadow-[0_12px_35px_rgba(233,201,98,0.22)] transition duration-300 hover:-translate-y-1"
+                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-6 py-3.5 text-sm font-semibold text-[var(--brand-primary)] shadow-[0_12px_35px_rgba(233,201,98,0.22)] transition duration-300 hover:-translate-y-1"
               >
                 Get Free Evaluation
               </Link>

@@ -38,7 +38,7 @@ export default function ValuationProcess() {
       <Header />
 
       {/* Hero */}
-      <section className="relative px-6 py-24 lg:px-8 text-center overflow-hidden">
+      <section className="relative px-6 py-16 lg:px-8 text-center overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-brand-gold/10 blur-[120px]" />
         </div>
@@ -49,7 +49,7 @@ export default function ValuationProcess() {
           </span>
           <h1 className="mt-8 text-5xl font-bold tracking-tight text-text-primary sm:text-6xl">
             How We Value <br />
-            <span className="bg-gradient-to-r from-brand-gold-soft via-brand-gold to-brand-gold-rich bg-clip-text text-transparent">Your Assets</span>
+            <span className="bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] bg-clip-text text-transparent">Your Assets</span>
           </h1>
           <p className="mt-6 text-xl text-text-secondary leading-8">
             At S Gold, valuation isn't a secret. It's a science. We combine technology,
@@ -59,7 +59,7 @@ export default function ValuationProcess() {
       </section>
 
       {/* Steps */}
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section className="mx-auto max-w-7xl px-6 py-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           {steps.map((step, idx) => (
             <div key={step.title} className="hover-lift group rounded-[2.5rem] border border-card-border bg-card-bg p-10 backdrop-blur-xl">

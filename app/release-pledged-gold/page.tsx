@@ -39,7 +39,7 @@ export default function ReleasePledgedGoldPage() {
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
       
-      <section className="relative px-6 py-20 lg:px-8">
+      <section className="relative overflow-hidden px-6 py-20 lg:px-8">
         <div className="absolute inset-0 z-0">
           <div className="absolute right-[-10%] top-20 h-96 w-96 rounded-full bg-brand-primary-2/30 blur-[120px]" />
         </div>

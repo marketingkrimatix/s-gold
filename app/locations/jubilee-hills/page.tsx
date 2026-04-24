@@ -55,7 +55,7 @@ export default function JubileeHillsLocationPage() {
           </p>
           <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-text-primary lg:text-5xl">
             Sell Gold in Jubilee Hills – <br />
-            <span className="bg-gradient-to-r from-[#F8F5EF] via-[#F6E7A1] to-[#D4AF37] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] bg-clip-text text-transparent">
               Premium, Private & Precise Liquidation.
             </span>
           </h1>
