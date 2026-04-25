@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
+import ContactForm from "@/components/ContactForm";
 
 const contactUsFaqs = [
   {
@@ -211,39 +212,7 @@ export default function ContactUsPage() {
             <div className="absolute top-0 right-0 h-32 w-32 bg-brand-gold/5 blur-3xl rounded-full" />
             <h2 className="text-2xl font-bold text-text-primary">Request a Call Back</h2>
             <p className="mt-2 text-sm text-text-tertiary mb-10">Get a priority price estimate within minutes.</p>
-            <form className="flex flex-col gap-6">
-              <div className="grid gap-6 md:grid-cols-2">
-                <div>
-                  <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-2 ml-1">Name</label>
-                  <input type="text" className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner" placeholder="Enter your name" />
-                </div>
-                <div>
-                  <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-2 ml-1">Phone</label>
-                  <input type="tel" className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner" placeholder="+91 00000 00000" />
-                </div>
-              </div>
-              <div className="grid gap-6 md:grid-cols-2">
-                <div>
-                  <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-2 ml-1">Email</label>
-                  <input type="email" className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner" placeholder="Your email address" />
-                </div>
-                <div>
-                  <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-2 ml-1">Location</label>
-                  <input type="text" className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner" placeholder="e.g. Khairatabad" />
-                </div>
-              </div>
-              <div>
-                <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-3 ml-1">Do you want to?</label>
-                <select className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary outline-none focus:border-brand-gold/50 transition shadow-inner appearance-none cursor-pointer">
-                  <option>Sell Gold & Get Cash for Gold</option>
-                  <option>Release Pledged Gold</option>
-                  <option>General Inquiry</option>
-                </select>
-              </div>
-              <button type="button" className="mt-4 rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-5 font-bold text-[#330164] shadow-lg shadow-brand-gold/10 transition hover:-translate-y-1 active:scale-95">
-                Send Message
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>

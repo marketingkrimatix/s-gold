@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const areas = [
   "Khairatabad", "Kukatpally", "Manikonda", "Dilsukhnagar", "Uppal", "AS Rao Nagar",
-   "Anandbagh", "Nallagandla", "Karwan", "Habsiguda", "Jubilee Hills", "KPHB"
+   "Anandbagh", "Nallagandla", "Karwan", "Habsiguda", "Jubilee Hills", "LB Nagar", "Suchitra", "Champapet", "Bowenpally"
 ];
 
 export default function BranchLinks() {
