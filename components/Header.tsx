@@ -247,7 +247,7 @@ export default function Header() {
             )}
 
             <Link
-              href="tel:+919999999999"
+              href="tel:+919996909999"
               className="hidden rounded-full border border-[var(--color-card-border)] bg-[var(--color-card-bg)] px-4 py-2 text-sm font-medium text-[var(--color-text-secondary)] transition hover:border-[var(--color-card-border-hover)] hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-text-primary)] sm:inline-flex"
             >
               Call Now
@@ -388,7 +388,7 @@ export default function Header() {
 
               <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
                 <Link
-                  href="tel:+919999999999"
+                  href="tel:+919996909999"
                   onClick={closeMenu}
                   className="inline-flex min-h-11 items-center justify-center rounded-2xl border border-[var(--color-card-border)] bg-[var(--color-card-bg)] px-4 py-3 text-sm font-medium text-[var(--color-text-secondary)] transition hover:border-[var(--color-card-border-hover)] hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-text-primary)]"
                 >

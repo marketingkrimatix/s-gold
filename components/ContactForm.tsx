@@ -11,6 +11,7 @@ export default function ContactForm() {
     location: "",
     service: "Sell Gold & Get Cash for Gold",
   });
+  const [errors, setErrors] = useState<{ phone?: string; email?: string }>({});
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -19,6 +20,25 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Reset errors and validate
+    setErrors({});
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneDigits = formData.phone.replace(/[^0-9]/g, '');
+    
+    const newErrors: { phone?: string; email?: string } = {};
+    if (!emailRegex.test(formData.email)) {
+      newErrors.email = "Please enter a valid email address.";
+    }
+    if (phoneDigits.length < 10) {
+      newErrors.phone = "Please enter a valid 10-digit phone number.";
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+
     setStatus("loading");
 
     try {
@@ -89,9 +109,10 @@ export default function ContactForm() {
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner"
+            className={`w-full rounded-2xl border ${errors.phone ? 'border-red-500/50' : 'border-card-border'} bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner`}
             placeholder="+91 00000 00000"
           />
+          {errors.phone && <p className="mt-1.5 ml-1 text-xs text-red-500 font-medium">{errors.phone}</p>}
         </div>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
@@ -103,9 +124,10 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full rounded-2xl border border-card-border bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner"
+            className={`w-full rounded-2xl border ${errors.email ? 'border-red-500/50' : 'border-card-border'} bg-input-bg px-5 py-4 text-text-primary placeholder-text-muted outline-none focus:border-brand-gold/50 transition shadow-inner`}
             placeholder="Your email address"
           />
+          {errors.email && <p className="mt-1.5 ml-1 text-xs text-red-500 font-medium">{errors.email}</p>}
         </div>
         <div>
           <label className="text-xs font-bold uppercase tracking-wider text-text-tertiary block mb-2 ml-1">Location</label>

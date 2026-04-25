@@ -72,7 +72,7 @@ export default function Footer() {
           </h3>
           <div className="space-y-3 text-sm text-text-secondary">
             <Link href="/valuation-process" className="block transition hover:text-brand-gold-soft">Valuation Process</Link>
-            <Link href="/referral-program" className="block transition hover:text-brand-gold-soft">Referral Program</Link>
+            {/* <Link href="/referral-program" className="block transition hover:text-brand-gold-soft">Referral Program</Link> */}
             <Link href="/why-us" className="block transition hover:text-brand-gold-soft">Why SGold</Link>
             <Link href="/blog" className="block transition hover:text-brand-gold-soft">Blog</Link>
           </div>

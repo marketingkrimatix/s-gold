@@ -76,14 +76,14 @@ export default function ClipPolygonCTA() {
 
                 <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                   <Link
-                    href="#contact"
+                    href="/contact-us"
                     className="inline-flex items-center justify-center rounded-full bg-[#2A0848] px-7 py-3.5 text-sm font-semibold text-[#F8F2DE] shadow-[0_14px_34px_rgba(42,8,72,0.18)] transition duration-300 hover:-translate-y-1 hover:bg-[#330164]"
                   >
                     Get Instant Quote
                   </Link>
 
                   <Link
-                    href="tel:+919999999999"
+                    href="tel:+919996909999"
                     className="inline-flex items-center justify-center rounded-full border border-[#2A0848]/15 bg-white/70 px-7 py-3.5 text-sm font-semibold text-[#2A0848] backdrop-blur transition duration-300 hover:-translate-y-1 hover:bg-white"
                   >
                     Call Now
@@ -121,13 +121,13 @@ export default function ClipPolygonCTA() {
                 </p>
 
                 <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                  <span className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-7 py-3.5 text-sm font-semibold text-[#2A0848] shadow-[0_14px_38px_rgba(233,201,98,0.28)]">
+                  <Link href="/contact-us" className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-7 py-3.5 text-sm font-semibold text-[#2A0848] shadow-[0_14px_38px_rgba(233,201,98,0.28)]">
                     Book a Visit
-                  </span>
+                  </Link>
 
-                  <span className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur">
+                  <Link href="/locations" className="pointer-events-auto inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur">
                     Find a Branch
-                  </span>
+                  </Link>
                 </div>
               </div>
             </div>

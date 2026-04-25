@@ -77,7 +77,7 @@ export default function STimeline() {
   });
 
   return (
-    <section ref={containerRef} className="relative bg-background w-full h-[300vh]">
+    <section ref={containerRef} id="stimeline" className="relative bg-background w-full h-[300vh]">
       {/* ── Sticky viewport ─────────────────────────────────────────── */}
       <div className="sticky top-0 w-full h-screen flex flex-col items-center overflow-hidden">
 

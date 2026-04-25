@@ -114,7 +114,7 @@ export default function HomeClient() {
         <HeroExchangeBackground />
         <HeroSideAssets />
 
-        <div className="relative z-[10] mx-auto grid max-w-7xl items-center gap-14 px-6 py-6 lg:grid-cols-2 lg:px-8 lg:py-28">
+        <div className="relative z-[10] mx-auto grid max-w-7xl items-center gap-14 px-6 py-6 lg:grid-cols-2 lg:px-8 lg:py-20">
           <div className="fade-up">
 
             <HeroExchangeMobile />
@@ -143,7 +143,7 @@ export default function HomeClient() {
                 Get Instant Quote
               </Link>
               <Link
-                href="#process"
+                href="#stimeline"
                 className="inline-flex items-center justify-center rounded-full border border-card-border bg-card-bg px-6 py-3.5 text-sm font-medium text-text-secondary backdrop-blur transition duration-300 hover:border-card-border-hover hover:bg-card-bg-hover hover:text-text-primary"
               >
                 See How It Works
@@ -222,6 +222,10 @@ export default function HomeClient() {
 
       <GoldDetailsSection />
 
+
+      <STimeline />
+
+      <GoldPurityAndValue />
       <section className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="lg:col-span-1">
@@ -233,9 +237,6 @@ export default function HomeClient() {
         </div>
       </section>
 
-      <STimeline />
-
-      <GoldPurityAndValue />
       <XRFAdvantage />
 
       {/* <section className="relative mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-16">

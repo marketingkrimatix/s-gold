@@ -3,11 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 
 const purities = [
-  { label: "24K", factor: 24 / 24 },
-  { label: "22K", factor: 22 / 24 },
-  { label: "20K", factor: 20 / 24 },
-  { label: "18K", factor: 18 / 24 },
-  { label: "14K", factor: 14 / 24 },
+  { label: "24K", factor: 0.999, description: "99.9% Pure" },
+  { label: "22K", factor: 0.916, description: "91.6% Pure (916 Hallmark)" },
+  { label: "20K", factor: 0.833, description: "83.3% Pure" },
+  { label: "18K", factor: 0.750, description: "75.0% Pure" },
 ];
 
 export default function GoldCalculator() {
@@ -103,18 +102,41 @@ export default function GoldCalculator() {
         // ) : 
         (
           <>
-            <p className="text-sm text-brand-gold-soft">Live 24K gold rate</p>
-            <p className="mt-2 text-3xl font-semibold text-text-primary">
-              ₹ {rate24k?.toFixed(2)} / gram
+            <div className="flex items-center justify-between">
+              <p className="text-sm text-brand-gold-soft font-medium uppercase tracking-wider">Live 24K Gold Rate</p>
+              <div className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse" />
+            </div>
+            <p className="mt-1 text-3xl font-semibold text-text-primary">
+              ₹ {rate24k?.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} / gram
             </p>
-            <p className="mt-1 text-sm text-text-tertiary">
-              Estimated value for {gramsValue || 0}g at {purity}:{" "}
-              <span className="font-semibold text-text-primary">
-                ₹ {estimatedValue.toFixed(2)}
-              </span>
+            
+            <div className="mt-6 space-y-3 pt-6 border-t border-gold-accent-border/30">
+              <div className="flex justify-between text-sm">
+                <span className="text-text-tertiary">Gross Weight</span>
+                <span className="text-text-primary font-medium">{gramsValue}g</span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-text-tertiary">Purity ({purity})</span>
+                <span className="text-text-primary font-medium">{(selectedPurity.factor * 100).toFixed(1)}%</span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-text-tertiary">Net Gold Weight</span>
+                <span className="text-brand-gold-soft font-semibold">{(gramsValue * selectedPurity.factor).toFixed(3)}g</span>
+              </div>
+              
+              <div className="pt-4 mt-2 border-t border-dashed border-gold-accent-border/50">
+                <p className="text-xs text-text-tertiary uppercase tracking-widest mb-1">Estimated Payout</p>
+                <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-brand-gold-rich to-brand-gold">
+                  ₹ {estimatedValue.toLocaleString("en-IN", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-6 text-[10px] text-text-muted leading-relaxed italic">
+              * This is an estimate based on live MCX spot rates. Actual payout is calculated after precise XRF testing at our branch.
             </p>
-            <p className="mt-3 text-xs text-text-muted">
-              Updated: {updatedAt ? new Date(updatedAt).toLocaleString() : "-"}
+            <p className="mt-2 text-[10px] text-text-muted">
+              Last Updated: {updatedAt ? new Date(updatedAt).toLocaleTimeString() : "-"}
             </p>
           </>
         )}

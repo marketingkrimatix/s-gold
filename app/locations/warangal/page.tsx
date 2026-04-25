@@ -51,7 +51,7 @@ export default function WarangalLocationPage() {
             <Link href="/contact-us" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
               Get Free Gold Valuation
             </Link>
-            <Link href="tel:+919999999999" className="inline-flex rounded-full border border-card-border bg-card-bg px-8 py-3.5 font-semibold text-text-primary transition hover:bg-card-bg-hover">
+            <Link href="tel:+919996909999" className="inline-flex rounded-full border border-card-border bg-card-bg px-8 py-3.5 font-semibold text-text-primary transition hover:bg-card-bg-hover">
               Call Now
             </Link>
           </div>
@@ -122,7 +122,7 @@ export default function WarangalLocationPage() {
             ))}
           </div>
           <div className="mt-12 text-center">
-            <Link href="tel:+919999999999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3 text-sm font-bold text-[#2A0848] shadow-lg transition hover:scale-105">
+            <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3 text-sm font-bold text-[#2A0848] shadow-lg transition hover:scale-105">
               Call Now for Instant Quote
             </Link>
           </div>
