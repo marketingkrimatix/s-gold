@@ -7,8 +7,8 @@ import { useRef } from "react";
 const steps = [
   {
     id: 1,
-    title: "Initial Consultation",
-    desc: "Bring your gold to any trusted branch.",
+    title: "Visit Our Nearest Branch",
+    desc: "Walk in to any SGold branch in Hyderabad, Tirupati, Warangal, or Karimnagar. No appointment needed.",
     /* Desktop — right of curve */
     top: "18%", left: "62%", align: "pl-6 text-left",
     /* Mobile */
@@ -16,8 +16,8 @@ const steps = [
   },
   {
     id: 2,
-    title: "Precision XRF Testing",
-    desc: "We scan your gold precisely with XRF.",
+    title: "XRF Purity Test",
+    desc: "Your gold is scanned with German XRF technology — right in front of you. Zero damage, 100% accurate.",
     /* Desktop — left of curve near the top */
     top: "12%", left: "38%", align: "-translate-x-full pr-6 text-right",
     /* Mobile */
@@ -26,7 +26,7 @@ const steps = [
   {
     id: 3,
     title: "Live Rate Valuation",
-    desc: "We provide an exact payout estimate at live market rates.",
+    desc: "We calculate your payout at today's MCX rate for your gold's exact purity. You see every number.",
     /* Desktop — left of curve at center crossing */
     top: "48%", left: "42%", align: "-translate-x-full pr-6 text-right",
     /* Mobile */
@@ -34,8 +34,8 @@ const steps = [
   },
   {
     id: 4,
-    title: "Secure Processing",
-    desc: "Fast, secure KYC paperwork handled digitally.",
+    title: "KYC Verification",
+    desc: "Aadhaar, PAN, or Passport — verified digitally in minutes. No paperwork.",
     /* Desktop — right of curve */
     top: "68%", left: "58%", align: "pl-6 text-left",
     /* Mobile */
@@ -44,11 +44,11 @@ const steps = [
   {
     id: 5,
     title: "Instant Payout",
-    desc: "Your cash is issued within 15 minutes.",
+    desc: "AccepAccept the offer and get paid immediately — cash, UPI, RTGS, or IMPS. Your choice.",
     /* Desktop — left of curve near bottom */
-    top: "88%", left: "45%", align: "-translate-x-full pr-6 text-right",
+    top: "85%", left: "45%", align: "-translate-x-full pr-6 text-right",
     /* Mobile */
-    mTop: "92%", mLeft: "48%", mAlign: "-translate-x-full pr-4 text-right",
+    mTop: "89%", mLeft: "48%", mAlign: "-translate-x-full pr-4 text-right",
   },
 ];
 
@@ -84,10 +84,10 @@ export default function STimeline() {
         {/* Header */}
         <div className="pt-20 md:pt-24 pb-6 md:pb-8 text-center flex-shrink-0">
           <p className="text-sm uppercase tracking-[0.25em] text-brand-gold">
-            Our Transparent Workflow
+            How We Buy Your Gold
           </p>
           <h2 className="mt-3 text-3xl font-semibold text-text-primary sm:text-4xl">
-            The S Gold Standard
+            The SGold Standard
           </h2>
         </div>
 

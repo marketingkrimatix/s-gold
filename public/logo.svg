@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <!-- Generator: Adobe Illustrator 29.5.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 137)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st1 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st2 {
+        font-family: Cinzel-Bold, Cinzel;
+        font-size: 70.46px;
+        font-weight: 700;
+        letter-spacing: .03em;
+      }
+
+      .st2, .st3 {
+        fill: #c9a249;
+      }
+
+      .st4 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st5 {
+        fill: #2a1139;
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 16.82px;
+      }
+
+      .st6 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st7 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="57.89" y1="156.38" x2="230.06" y2="156.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a1139"/>
+      <stop offset=".73" stop-color="#3e1b52"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="254.27" y1="140.91" x2="383.52" y2="140.91" gradientUnits="userSpaceOnUse">
+      <stop offset=".39" stop-color="#c9a249"/>
+      <stop offset=".88" stop-color="#e7c869"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="195.32" y1="120.48" x2="251.68" y2="120.48" xlink:href="#linear-gradient1"/>
+    <linearGradient id="linear-gradient3" x1="200.19" y1="91.24" x2="330.88" y2="91.24" xlink:href="#linear-gradient1"/>
+    <linearGradient id="linear-gradient4" x1="253.63" y1="218.27" x2="332.38" y2="218.27" xlink:href="#linear-gradient1"/>
+  </defs>
+  <path class="st7" d="M177.3,58.14c6.92-7.09,4.28,6.99,7.58,9.12,6.51,4.2,10.84-4.27,10.14-10.13-4.32-36.27-77.45-48.72-93.47-11.07-15.32,36,38.75,60.72,62.16,75.98,40.97,26.7,76.67,60.13,63.61,114.44-15.05,62.57-93.64,86.81-143.27,47.95-22.18-17.37-36.98-56.46-16.19-80.08,3.52-4,11.76-10.44,16.77-5.84-27.47,23.99-7.49,65.61,21.55,78,51.6,22.01,97.36-26.12,79.32-77.38-18.87-53.61-127.64-75.47-122.18-136.35C68.9.55,182.75-9.4,205.53,45.31c6.57,15.78-.23,41.05-20.72,35.59-9.46-2.52-14.4-15.7-7.51-22.76Z"/>
+  <text class="st2" transform="translate(57.89 364.47)"><tspan x="0" y="0">SGOLD</tspan></text>
+  <text class="st5" transform="translate(89.53 391.69)"><tspan x="0" y="0">TRUSTED GOLD BUYERS</tspan></text>
+  <g>
+    <path class="st1" d="M383.52,156.95c-10.61,10.94-22.08,18.72-36.69,20.63-31.27,4.09-56.28-6.9-75.16-31.95-9.41-12.48-14.51-26.87-17.4-42.23,1.5,2.19,3,4.37,4.5,6.56,1.58,2.3,3.12,4.63,4.74,6.9,8.92,12.51,18.13,24.72,30.46,34.26,23.66,18.31,49.5,20.56,77.05,10.95,3.93-1.37,7.73-3.15,12.5-5.11Z"/>
+    <path class="st0" d="M251.68,142.7c-12.2-.43-24.22,1.68-35.42-3.22-10.07-4.4-17.95-10.88-20.28-21.49-1.42-6.47-.52-12.91,2.3-19.83,1.74,16.13,10.21,25.92,25.41,29.3,4.55,1.01,9.45.62,14.16,1.1,1.42.14,3.21.72,4.03,1.68,3.31,3.86,6.31,7.96,9.8,12.45Z"/>
+    <path class="st3" d="M252.31,86.02c-2.57-.55-4.79-1.07-7.04-1.48-3.22-.59-5.66-2.37-6.87-5.29-1.14-2.76-2.82-4.03-6.14-3.35,9.84-7.73,16.82-4.18,20.05,10.13Z"/>
+    <path class="st6" d="M200.19,27.52s5.36,4.38,8.67,12.11c1.29-.58,30.91-13.87,62.44,29.25,31.05,42.48,44.6,87.49,44.6,87.49,0,0,4.68,3.87,14.98,3.37-6.54-27.21-26.33-69.8-46.22-96.78-16.33-22.14-41.06-52.13-84.47-35.45Z"/>
+    <path class="st4" d="M315.42,181.85s7.48,3.45,16.68,2.11c.65,7.84,2.2,45.16-22.9,62.67-5.64,3.42-31.62,18.66-50.71-4.56-16.36-25.66,13.3-46.12,19.24-28.49,0,0-13.49,3.55-9.74,14.76,3.75,11.21,17.26,11.99,25.82,8.65,8.55-3.34,24.78-22.08,21.62-55.14Z"/>
+  </g>
+  <rect class="st3" x="61.25" y="383.15" width="22.75" height="3.16"/>
+  <rect class="st3" x="304.08" y="383.51" width="24.09" height="3.16"/>
+</svg>

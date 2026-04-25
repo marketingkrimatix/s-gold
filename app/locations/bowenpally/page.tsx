@@ -23,7 +23,7 @@ export default function BowenpallyLocationPage() {
 
   const faqs = [
     {
-      question: "Where is S Gold located in Bowenpally?",
+      question: "Where is SGold located in Bowenpally?",
       answer: "We are located near the Bowenpally X Roads and the Cantonment area, ensuring easy parking and safe access for all our customers."
     },
     {
@@ -61,7 +61,7 @@ export default function BowenpallyLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            The trusted gold exchange for North Secunderabad. S Gold Bowenpally provides a transparent, high-tech platform to unlock the maximum value of your assets.
+            The trusted gold exchange for North Secunderabad. SGold Bowenpally provides a transparent, high-tech platform to unlock the maximum value of your assets.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -78,7 +78,7 @@ export default function BowenpallyLocationPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="text-3xl font-bold text-text-primary">Why Bowenpally Chooses S Gold</h2>
+            <h2 className="text-3xl font-bold text-text-primary">Why Bowenpally Chooses SGold</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
               Strategic location and scientific accuracy make us the primary choice for North Secunderabad. We use German-engineered XRF Laser Analyzers to provide a precise breakdown of your gold’s purity.
             </p>
@@ -185,7 +185,7 @@ export default function BowenpallyLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Bowenpally Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Bowenpally Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Professional gold buying mirrored to premium financial standards.</p>
 
               <div className="mt-10 space-y-8">

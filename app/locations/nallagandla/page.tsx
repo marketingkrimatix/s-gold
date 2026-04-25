@@ -60,7 +60,7 @@ export default function NallagandlaLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Nallagandla is home to professionals who value time and accuracy. S Gold helps you turn unused gold into instant cash through a transparent and efficient process.
+            Nallagandla is home to professionals who value time and accuracy. SGold helps you turn unused gold into instant cash through a transparent and efficient process.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -183,7 +183,7 @@ export default function NallagandlaLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Nallagandla</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Nallagandla</h2>
               <p className="mt-4 text-lg text-text-secondary">Turn your gold into liquid cash in minutes.</p>
 
               <div className="mt-10 space-y-8">

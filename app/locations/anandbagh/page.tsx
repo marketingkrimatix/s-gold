@@ -23,7 +23,7 @@ export default function AnandbaghLocationPage() {
 
   const faqs = [
     {
-      question: "Where is the S Gold branch located in Anandbagh?",
+      question: "Where is the SGold branch located in Anandbagh?",
       answer: "We are located in the heart of the Anandbagh commercial area, easily accessible from the Anandbagh Crossroads and near the Malkajgiri Police Station."
     },
     {
@@ -78,7 +78,7 @@ export default function AnandbaghLocationPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="text-3xl font-bold text-text-primary">Why Anandbagh Residents Choose S Gold</h2>
+            <h2 className="text-3xl font-bold text-text-primary">Why Anandbagh Residents Choose SGold</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
               Malkajgiri-Anandbagh families are moving away from traditional pawn shops. Our state-of-the-art branch offers 99.9% accurate German XRF technology and a professional, air-conditioned environment.
             </p>
@@ -168,7 +168,7 @@ export default function AnandbaghLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Anandbagh Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Anandbagh Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Experience city-grade technology in your neighborhood.</p>
 
               <div className="mt-10 space-y-8">

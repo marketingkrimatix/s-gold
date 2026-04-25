@@ -23,7 +23,7 @@ export default function KhairatabadLocationPage() {
   const faqs = [
     {
       question: "Where can I sell gold in Khairatabad for the best price?",
-      answer: "You can sell gold in Khairatabad at trusted buyers like S Gold, located opposite SBI Bank, where pricing is based on live market rates and transparent evaluation."
+      answer: "You can sell gold in Khairatabad at trusted buyers like SGold, located opposite SBI Bank, where pricing is based on live market rates and transparent evaluation."
     },
     {
       question: "Do I need a bill to sell gold in Khairatabad?",
@@ -31,7 +31,7 @@ export default function KhairatabadLocationPage() {
     },
     {
       question: "How is the gold price calculated in Khairatabad?",
-      answer: "At S Gold, your gold value is calculated using real-time market rates and precise purity testing, ensuring you receive the highest possible payout."
+      answer: "At SGold, your gold value is calculated using real-time market rates and precise purity testing, ensuring you receive the highest possible payout."
     },
     {
       question: "Can I sell broken or old gold jewellery in Khairatabad?",
@@ -60,7 +60,7 @@ export default function KhairatabadLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Looking to sell gold in Khairatabad and get the highest value instantly? S Gold offers a transparent, secure, and fast experience with live market rates.
+            Looking to sell gold in Khairatabad and get the highest value instantly? SGold offers a transparent, secure, and fast experience with live market rates.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -101,7 +101,7 @@ export default function KhairatabadLocationPage() {
           </div>
 
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
-            <h3 className="text-2xl font-bold text-text-primary">S Gold Khairatabad Highlights</h3>
+            <h3 className="text-2xl font-bold text-text-primary">SGold Khairatabad Highlights</h3>
             <div className="mt-8 space-y-6">
               {[
                 "Live gold rate evaluation",
@@ -140,7 +140,7 @@ export default function KhairatabadLocationPage() {
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-text-primary">How to Sell Gold at S Gold Khairatabad</h2>
+            <h2 className="text-3xl font-bold text-text-primary">How to Sell Gold at SGold Khairatabad</h2>
           </div>
           <div className="mt-16 grid gap-8 md:grid-cols-4">
             {steps.map((step, idx) => (
@@ -182,7 +182,7 @@ export default function KhairatabadLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Khairatabad Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Khairatabad Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Get a free evaluation and the best market price.</p>
 
               <div className="mt-10 space-y-8">

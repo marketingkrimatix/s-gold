@@ -22,7 +22,7 @@ export default function UppalLocationPage() {
 
   const faqs = [
     {
-      question: "Where exactly is S Gold located in Uppal?",
+      question: "Where exactly is SGold located in Uppal?",
       answer: "We are situated near the Uppal Crossroads, close to the Uppal Metro Station, making it highly accessible for both commuters and residents."
     },
     {
@@ -35,7 +35,7 @@ export default function UppalLocationPage() {
     },
     {
       question: "Can I sell gold coins purchased from a bank?",
-      answer: "Yes, while banks don't buy back coins, S Gold buys them at current 24K market rates with instant settlement."
+      answer: "Yes, while banks don't buy back coins, SGold buys them at current 24K market rates with instant settlement."
     }
   ];
 
@@ -60,7 +60,7 @@ export default function UppalLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            The gold exchange landmark of East Hyderabad. S Gold is the premier choice for residents of Uppal, Peerzadiguda, and Boduppal seeking professional gold liquidation.
+            The gold exchange landmark of East Hyderabad. SGold is the premier choice for residents of Uppal, Peerzadiguda, and Boduppal seeking professional gold liquidation.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -77,7 +77,7 @@ export default function UppalLocationPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="text-3xl font-bold text-text-primary">Why Uppal Chooses S Gold</h2>
+            <h2 className="text-3xl font-bold text-text-primary">Why Uppal Chooses SGold</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
               Strategic location and scientific precision set us apart. We have introduced XRF Laser Technology to the area, ensuring every customer from Habsiguda to Chengicherla gets a foolproof purity report.
             </p>
@@ -124,7 +124,7 @@ export default function UppalLocationPage() {
       <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-text-primary">S Gold’s 4-Pillar Evaluation</h2>
+            <h2 className="text-3xl font-bold text-text-primary">SGold’s 4-Pillar Evaluation</h2>
             <p className="mt-4 text-text-secondary">Scientific precision applied to every transaction.</p>
           </div>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -183,7 +183,7 @@ export default function UppalLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Uppal Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Uppal Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Turn your gold into working capital or dream investments.</p>
 
               <div className="mt-10 space-y-8">

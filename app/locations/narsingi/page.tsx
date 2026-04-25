@@ -23,7 +23,7 @@ export default function NarsingiLocationPage() {
 
   const faqs = [
     {
-      question: "Where is S Gold located in Narsingi?",
+      question: "Where is SGold located in Narsingi?",
       answer: "We are situated in a prime area near the Narsingi Junction, easily accessible for residents of Puppalguda and Kokapet, with ample parking."
     },
     {
@@ -61,7 +61,7 @@ export default function NarsingiLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            The trusted gold exchange for Hyderabad’s new growth corridor. S Gold Narsingi provides a modern, high-tech platform for liquidating assets with absolute confidence.
+            The trusted gold exchange for Hyderabad’s new growth corridor. SGold Narsingi provides a modern, high-tech platform for liquidating assets with absolute confidence.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -168,7 +168,7 @@ export default function NarsingiLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Narsingi Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Narsingi Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Modern, efficient, and high-paying gold-selling.</p>
 
               <div className="mt-10 space-y-8">

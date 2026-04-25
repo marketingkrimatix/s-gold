@@ -23,14 +23,14 @@ export default function DilshuknagarLocationPage() {
   const faqs = [
     {
       question: "What is today’s gold rate in Dilsukhnagar?",
-      answer: "Gold prices fluctuate based on market conditions. At S Gold Dilsukhnagar, gold is evaluated using the live market rate at the exact time of testing."
+      answer: "Gold prices fluctuate based on market conditions. At SGold Dilsukhnagar, gold is evaluated using the live market rate at the exact time of testing."
     },
     {
       question: "Can I sell broken or old gold jewellery at this branch?",
       answer: "Yes, we buy all types of gold including necklaces, bangles, rings, and broken or damaged gold items."
     },
     {
-      question: "Is instant cash available at S Gold Dilsukhnagar?",
+      question: "Is instant cash available at SGold Dilsukhnagar?",
       answer: "Yes, we provide instant cash for your gold (within government limits) or same-day bank transfers for your convenience."
     },
     {
@@ -60,7 +60,7 @@ export default function DilshuknagarLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Looking to sell gold in Dilshuknagar? S Gold is a trusted gold-buying branch offering a transparent, secure, and hassle-free experience in East Hyderabad's busiest hub.
+            Looking to sell gold in Dilshuknagar? SGold is a trusted gold-buying branch offering a transparent, secure, and hassle-free experience in East Hyderabad's busiest hub.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -183,7 +183,7 @@ export default function DilshuknagarLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Dilsukhnagar Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Dilsukhnagar Today</h2>
               <p className="mt-4 text-lg text-text-secondary">East Hyderabad's most trusted gold buying destination.</p>
 
               <div className="mt-10 space-y-8">

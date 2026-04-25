@@ -32,7 +32,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                <h2 className="text-text-primary mt-10 mb-4 text-2xl font-semibold">The XRF Testing Advantage</h2>
                <p>
                   X-ray Fluorescence (XRF) technology is a non-destructive analytical technique used to determine the exact elemental composition of materials.
-                  Here at S Gold, our German-engineered XRF machines scan your jewelry without any damage, giving us a 100% accurate reading of the total karatage.
+                  Here at SGold, our German-engineered XRF machines scan your jewelry without any damage, giving us a 100% accurate reading of the total karatage.
                </p>
                <ul className="list-disc pl-6 space-y-2 mt-4 mb-8">
                   <li>No melting or acid scratching required.</li>

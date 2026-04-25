@@ -4,7 +4,7 @@ import FAQSection from "@/components/FAQSection";
 
 const contactUsFaqs = [
   {
-    question: "How can I contact S Gold?",
+    question: "How can I contact SGold?",
     answer: "You can reach us through multiple channels: Phone & WhatsApp at +91 99969 09999 and +91 91664 64916, or email us at support@s-gold.in.",
   },
   {

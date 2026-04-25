@@ -64,7 +64,7 @@ export default function KarimnagarLocationPage() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">Sell Your Gold in Karimnagar with Trust & Transparency</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
-              At S Gold, we offer the best value for your gold in Karimnagar. Whether it’s old jewellery, broken ornaments, or unused gold, we ensure:
+              At SGold, we offer the best value for your gold in Karimnagar. Whether it’s old jewellery, broken ornaments, or unused gold, we ensure:
             </p>
             <ul className="mt-8 space-y-4">
               {[
@@ -89,7 +89,7 @@ export default function KarimnagarLocationPage() {
           </div>
 
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
-            <h3 className="text-2xl font-bold text-text-primary">Why Choose S Gold in Karimnagar?</h3>
+            <h3 className="text-2xl font-bold text-text-primary">Why Choose SGold in Karimnagar?</h3>
             <div className="mt-8 space-y-6">
               {[
                 "Highest gold rate in Karimnagar",
@@ -144,7 +144,7 @@ export default function KarimnagarLocationPage() {
           <div className="order-1 lg:order-2">
             <h2 className="text-3xl font-bold text-text-primary">Trusted Gold Buyers Near Karimnagar</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
-              Looking for reliable gold buyers near Karimnagar? S Gold provides a secure and hassle-free gold selling experience. Our expert team ensures accurate valuation using advanced technology.
+              Looking for reliable gold buyers near Karimnagar? SGold provides a secure and hassle-free gold selling experience. Our expert team ensures accurate valuation using advanced technology.
             </p>
             <p className="mt-4 text-text-tertiary font-medium">We serve customers across Karimnagar and surrounding regions.</p>
           </div>
@@ -177,7 +177,7 @@ export default function KarimnagarLocationPage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <h2 className="text-3xl font-bold text-text-primary">Ready to Sell Your Gold in Karimnagar?</h2>
-              <p className="mt-4 text-lg text-text-secondary">Get the best price today with S Gold!</p>
+              <p className="mt-4 text-lg text-text-secondary">Get the best price today with SGold!</p>
 
               <div className="mt-10 space-y-8">
                 <div className="flex gap-4">

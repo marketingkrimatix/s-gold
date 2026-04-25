@@ -34,7 +34,7 @@ export default function ChecklistSection() {
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">What to Bring With You</h2>
           <p className="mt-4 text-text-secondary max-w-2xl mx-auto">
             To ensure a smooth and instant transaction, please carry the following documents
-            when you visit our S Gold branch.
+            when you visit our SGold branch.
           </p>
         </div>
 

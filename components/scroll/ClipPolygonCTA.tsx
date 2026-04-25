@@ -108,7 +108,7 @@ export default function ClipPolygonCTA() {
             <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
               <div className="mx-auto max-w-4xl">
                 <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-[#F6E7A1]">
-                  Trusted S Gold Experience
+                  Trusted SGold Experience
                 </p>
 
                 <h2 className="mx-auto max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">

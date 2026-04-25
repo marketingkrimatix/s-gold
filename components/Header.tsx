@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 type ChildNavItem = {
   label: string;
@@ -91,16 +92,18 @@ export default function Header() {
             {/* <div className="glow-soft flex h-11 w-11 items-center justify-center rounded-2xl border border-[var(--color-brand-gold)]/30 bg-gradient-to-br from-[var(--color-brand-gold-soft)] via-[var(--color-brand-gold)] to-[var(--color-brand-gold-rich)] text-sm font-bold text-[var(--color-brand-primary)] shadow-[0_10px_30px_rgba(233,201,98,0.20)] transition duration-300 group-hover:scale-105">
               SG
             </div> */}
-            <div className="glow-soft flex h-11 w-11 items-center justify-center rounded-2xl border border-brand-gold/30 bg-gradient-to-br from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] text-sm font-bold text-[#330164] shadow-[0_10px_30px_rgba(233,201,98,0.20)] transition duration-300 group-hover:scale-105">
+            {/* <div className="glow-soft flex h-11 w-11 items-center justify-center rounded-2xl border border-brand-gold/30 bg-gradient-to-br from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] text-sm font-bold text-[#330164] shadow-[0_10px_30px_rgba(233,201,98,0.20)] transition duration-300 group-hover:scale-105">
               SG
+            </div> */}
+            <div>
+              <Image src="/logo1.svg" alt="Gold" width={45} height={45} />
             </div>
-
             <div>
               <p className="text-lg font-semibold tracking-wide text-[var(--color-text-primary)]">
-                S Gold
+                SGold
               </p>
               <p className="text-xs uppercase tracking-[0.28em] text-[var(--color-brand-gold)]">
-                Gold Buyers
+                Trusted Gold Buyers
               </p>
             </div>
           </Link>
@@ -146,26 +149,26 @@ export default function Header() {
                     <div className="absolute left-0 top-full h-4 w-72" />
 
                     <div
-                      className={`absolute left-0 top-[calc(100%+12px)] z-50 w-72 origin-top rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-surface)] p-3 shadow-[0_24px_80px_rgba(0,0,0,0.20)] transition-all duration-200 ${desktopOpenMenu === item.label
-                          ? "pointer-events-auto visible translate-y-0 opacity-100"
-                          : "pointer-events-none invisible -translate-y-2 opacity-0"
+                      className={`absolute left-0 top-[calc(100%+12px)] z-50 w-50 origin-top rounded-3xl border border-[var(--color-card-border)] bg-[var(--color-surface)] p-3 shadow-[0_24px_80px_rgba(0,0,0,0.20)] transition-all duration-200 ${desktopOpenMenu === item.label
+                        ? "pointer-events-auto visible translate-y-0 opacity-100"
+                        : "pointer-events-none invisible -translate-y-2 opacity-0"
                         }`}
                     >
                       {!(item.label === "Trust") && (
                         <>
-                      <Link
-                        href={item.href}
-                        className="mb-2 flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-brand-gold)]"
-                      >
-                        <span>All {item.label}</span>
-                        <span className="text-[var(--color-brand-gold)]/80">↗</span>
-                      </Link>
-                     
+                          <Link
+                            href={item.href}
+                            className="mb-2 flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition hover:bg-[var(--color-card-bg-hover)] hover:text-[var(--color-brand-gold)]"
+                          >
+                            <span>All {item.label}</span>
+                            <span className="text-[var(--color-brand-gold)]/80">↗</span>
+                          </Link>
 
-                      <div className="h-px bg-[var(--color-divider)]" />
-                      </>
+
+                          <div className="h-px bg-[var(--color-divider)]" />
+                        </>
                       )}
-                      
+
                       <div className="mt-2 flex flex-col gap-1">
                         {item.children.map((child) => (
                           <Link
@@ -341,8 +344,8 @@ export default function Header() {
 
                         <div
                           className={`grid transition-all duration-300 ${mobileOpenMenu === item.label
-                              ? "grid-rows-[1fr] opacity-100"
-                              : "grid-rows-[0fr] opacity-70"
+                            ? "grid-rows-[1fr] opacity-100"
+                            : "grid-rows-[0fr] opacity-70"
                             }`}
                         >
                           <div className="overflow-hidden">
@@ -411,8 +414,8 @@ export default function Header() {
         aria-label="Close menu overlay"
         onClick={closeMenu}
         className={`fixed inset-0 z-40 bg-black/30 backdrop-blur-[2px] transition-opacity duration-300 lg:hidden ${mobileMenuOpen
-            ? "pointer-events-auto opacity-100"
-            : "pointer-events-none opacity-0"
+          ? "pointer-events-auto opacity-100"
+          : "pointer-events-none opacity-0"
           }`}
       />
     </>

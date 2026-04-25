@@ -5,27 +5,27 @@ export default function TermsAndConditions() {
   const sections = [
     {
       title: "1. Ownership of Gold",
-      content: "By offering gold to S Gold, you represent and warrant that you are the legal and rightful owner of the gold and that it is free from all encumbrances and claims. You agree to indemnify S Gold against any third-party claims regarding ownership."
+      content: "By offering gold to SGold, you represent and warrant that you are the legal and rightful owner of the gold and that it is free from all encumbrances and claims. You agree to indemnify SGold against any third-party claims regarding ownership."
     },
     {
       title: "2. Identification Requirements",
-      content: "In compliance with Indian anti-money laundering regulations and local laws, sellers must provide valid government-issued photo identification (Aadhaar/PAN) and address proof. S Gold reserves the right to refuse service if documentation is insufficient or suspicious."
+      content: "In compliance with Indian anti-money laundering regulations and local laws, sellers must provide valid government-issued photo identification (Aadhaar/PAN) and address proof. SGold reserves the right to refuse service if documentation is insufficient or suspicious."
     },
     {
       title: "3. Valuation & Testing",
-      content: "All gold is tested using non-destructive XRF technology. You agree that the valuation provided by S Gold is based on current live market rates minus deductions for impurities, stones, and administrative costs. The final offer provided is based on these objective technical findings."
+      content: "All gold is tested using non-destructive XRF technology. You agree that the valuation provided by SGold is based on current live market rates minus deductions for impurities, stones, and administrative costs. The final offer provided is based on these objective technical findings."
     },
     {
       title: "4. Payment Terms",
-      content: "Payments are made via Cash (within statutory limits), IMPS, RTGS, or UPI. Once payment is accepted and processed, the transaction is considered final and irreversible. S Gold is not responsible for delays caused by banking system failures."
+      content: "Payments are made via Cash (within statutory limits), IMPS, RTGS, or UPI. Once payment is accepted and processed, the transaction is considered final and irreversible. SGold is not responsible for delays caused by banking system failures."
     },
     {
       title: "5. Intellectual Property",
-      content: "All content on this website, including text, graphics, logos, and software, is the property of S Gold and is protected by copyright and intellectual property laws. Unauthorized use or reproduction is strictly prohibited."
+      content: "All content on this website, including text, graphics, logos, and software, is the property of SGold and is protected by copyright and intellectual property laws. Unauthorized use or reproduction is strictly prohibited."
     },
     {
       title: "6. Limitation of Liability",
-      content: "S Gold shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services or website, even if S Gold has been advised of the possibility of such damages."
+      content: "SGold shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services or website, even if SGold has been advised of the possibility of such damages."
     },
     {
       title: "7. Termination",
@@ -54,7 +54,7 @@ export default function TermsAndConditions() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-gold">Legal</p>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">Terms & Conditions</h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Please read these terms carefully before transacting with S Gold.
+            Please read these terms carefully before transacting with SGold.
           </p>
 
           <div className="mt-16 space-y-12">

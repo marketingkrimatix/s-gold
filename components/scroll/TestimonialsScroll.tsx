@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     title: "Smooth and trustworthy",
-    body: "The gold valuation process was clearly explained and the staff made the entire experience feel safe and transparent.",
-    name: "Hyderabad Customer",
+    body: "I had gold pledged at Muthoot for over a year and the interest was piling up. SGold sent their executive with me, cleared the loan the same day, and paid me the balance instantly. I did not expect it to be this simple.",
+    name: "Rajesh M., Kukatpally, Hyderabad",
   },
   {
     title: "Fast payout",
-    body: "I was surprised by how fast the process was. Everything felt premium, clear, and well organized.",
-    name: "Verified Visitor",
+    body: "The entire process — from testing to payment — took less than 20 minutes. The staff explained every step clearly. I got a much better rate than I expected.",
+    name: "Lakshmi P., Dilsukhnagar, Hyderabad",
   },
   {
     title: "Easy gold selling experience",
-    body: "Clean process, no confusion, and a much better overall experience than expected.",
-    name: "Walk-in Customer",
+    body: "I was nervous about selling my mother&#39;s jewellery. The team at SGold made the whole experience feel safe and transparent. Zero pressure, no damage to the ornaments.",
+    name: "Suresh K., Tirupati",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function TestimonialsScroll() {
       <div className="mb-10 max-w-2xl">
         <p className="text-sm uppercase tracking-[0.24em] text-brand-gold">Testimonials</p>
         <h2 className="mt-3 text-3xl font-semibold text-text-primary sm:text-4xl">
-          Hear it from customers
+          What Our Customers Say
         </h2>
       </div>
 
@@ -43,8 +43,8 @@ export default function TestimonialsScroll() {
             <p className="text-sm font-medium text-brand-gold-soft">{item.title}</p>
             <p className="mt-4 text-sm leading-7 text-text-secondary">{item.body}</p>
             <div className="mt-auto" >
-            <div className="mt-6 h-px w-full bg-divider" />
-            <p className="mt-5 text-sm font-semibold text-text-primary">{item.name}</p>
+              <div className="mt-6 h-px w-full bg-divider" />
+              <p className="mt-5 text-sm font-semibold text-text-primary">{item.name}</p>
             </div>
           </motion.div>
         ))}

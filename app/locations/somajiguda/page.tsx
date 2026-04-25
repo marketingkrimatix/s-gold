@@ -23,7 +23,7 @@ export default function SomajigudaLocationPage() {
 
   const faqs = [
     {
-      question: "Where exactly is the S Gold branch in Somajiguda?",
+      question: "Where exactly is the SGold branch in Somajiguda?",
       answer: "We are located on the main Somajiguda road, near Yashoda Hospital and the Governor’s Residence, ensuring safe and professional access."
     },
     {
@@ -61,7 +61,7 @@ export default function SomajigudaLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            The most trusted destination for gold liquidation in central Hyderabad. S Gold Somajiguda provides a sophisticated platform for residents and professionals to convert gold into instant liquidity.
+            The most trusted destination for gold liquidation in central Hyderabad. SGold Somajiguda provides a sophisticated platform for residents and professionals to convert gold into instant liquidity.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -78,7 +78,7 @@ export default function SomajigudaLocationPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="text-3xl font-bold text-text-primary">Why Professionals Choose S Gold</h2>
+            <h2 className="text-3xl font-bold text-text-primary">Why Professionals Choose SGold</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
               Somajiguda demands a corporate-grade financial experience. We provide absolute privacy for high-profile clients with exclusive consultation rooms and non-destructive scientific testing.
             </p>
@@ -168,7 +168,7 @@ export default function SomajigudaLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Somajiguda Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Somajiguda Today</h2>
               <p className="mt-4 text-lg text-text-secondary">City-grade precision in Hyderabad's administrative heart.</p>
 
               <div className="mt-10 space-y-8">

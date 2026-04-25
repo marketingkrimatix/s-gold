@@ -52,7 +52,7 @@ export default function ValuationProcess() {
             <span className="bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] bg-clip-text text-transparent">Your Assets</span>
           </h1>
           <p className="mt-6 text-xl text-text-secondary leading-8">
-            At S Gold, valuation isn't a secret. It's a science. We combine technology,
+            At SGold, valuation isn't a secret. It's a science. We combine technology,
             market data, and complete transparency to ensure you get the absolute best price.
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function ValuationProcess() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">XRF Technology vs. Traditional Methods</h2>
             <p className="mt-6 text-text-secondary leading-8">
-              Most local buyers still use the "Acid Test" or "Touchstone" method, which is subjective and can damage your jewellery. At S Gold, we believe in scientific precision.
+              Most local buyers still use the "Acid Test" or "Touchstone" method, which is subjective and can damage your jewellery. At SGold, we believe in scientific precision.
             </p>
 
             <div className="mt-10 space-y-6">
@@ -93,7 +93,7 @@ export default function ValuationProcess() {
               <div className="flex gap-4 p-5 rounded-2xl border border-brand-gold/20 bg-brand-gold/5">
                 <div className="text-green-400 text-xl">✓</div>
                 <div>
-                  <h4 className="font-bold text-brand-gold-soft">S Gold XRF Analysis</h4>
+                  <h4 className="font-bold text-brand-gold-soft">SGold XRF Analysis</h4>
                   <p className="text-sm text-text-tertiary">Non-destructive X-Ray Fluorescence provides a printed report of every metal present (Silver, Copper, etc.) alongside the exact gold percentage.</p>
                 </div>
               </div>

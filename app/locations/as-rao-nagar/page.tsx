@@ -31,7 +31,7 @@ export default function ASRaoNagarLocationPage() {
     },
     {
       question: "Do you buy gold coins and bars?",
-      answer: "While banks are prohibited from buying back gold coins, S Gold buys them at current 24K market rates with instant cash settlement."
+      answer: "While banks are prohibited from buying back gold coins, SGold buys them at current 24K market rates with instant cash settlement."
     },
     {
       question: "What if I am not happy with the valuation?",
@@ -60,7 +60,7 @@ export default function ASRaoNagarLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Residents of AS Rao Nagar, Sainikpuri, and Kapra now have a corporate, high-tech standard for gold buying. S Gold brings integrity and precision to North Hyderabad.
+            Residents of AS Rao Nagar, Sainikpuri, and Kapra now have a corporate, high-tech standard for gold buying. SGold brings integrity and precision to North Hyderabad.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -79,7 +79,7 @@ export default function ASRaoNagarLocationPage() {
           <div>
             <h2 className="text-3xl font-bold text-text-primary">Beyond the Touchstone: Scientific Approach</h2>
             <p className="mt-6 text-lg leading-8 text-text-secondary">
-              Most local shops use unscientific methods like the touchstone (Kasauti) which are inaccurate and destructive. S Gold uses German XRF technology to identify the exact percentage of pure gold without a single scratch.
+              Most local shops use unscientific methods like the touchstone (Kasauti) which are inaccurate and destructive. SGold uses German XRF technology to identify the exact percentage of pure gold without a single scratch.
             </p>
             <ul className="mt-8 space-y-4">
               {[
@@ -101,7 +101,7 @@ export default function ASRaoNagarLocationPage() {
           </div>
 
           <div className="rounded-[2.5rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
-            <h3 className="text-2xl font-bold text-text-primary">Why North Hyderabad Trusts S Gold</h3>
+            <h3 className="text-2xl font-bold text-text-primary">Why North Hyderabad Trusts SGold</h3>
             <div className="mt-8 space-y-6">
               {[
                 "Private and secure experience",
@@ -167,7 +167,7 @@ export default function ASRaoNagarLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold AS Rao Nagar Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold AS Rao Nagar Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Get the cash you deserve where technology meets trust.</p>
 
               <div className="mt-10 space-y-8">

@@ -22,14 +22,14 @@ export default function SuchitraLocationPage() {
   const faqs = [
     {
       question: "What is today’s gold rate in Suchitra?",
-      answer: "Gold prices fluctuate daily based on market conditions. At S Gold Suchitra, gold is evaluated using the live market rate at the time of testing."
+      answer: "Gold prices fluctuate daily based on market conditions. At SGold Suchitra, gold is evaluated using the live market rate at the time of testing."
     },
     {
       question: "Can I sell broken or old gold jewellery at this branch?",
       answer: "Yes, we buy all types of gold jewellery, including broken ornaments, old scrap gold, and coins, based on their scientific purity."
     },
     {
-      question: "Is instant cash available at S Gold Suchitra?",
+      question: "Is instant cash available at SGold Suchitra?",
       answer: "Yes, we provide instant cash for your gold (within government limits) or same-day bank transfers for your convenience."
     },
     {
@@ -59,7 +59,7 @@ export default function SuchitraLocationPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-text-secondary">
-            Your trusted destination for transparent gold buying in North Hyderabad. S Gold Suchitra serves families, professionals, and business owners with honest pricing and quick service.
+            Your trusted destination for transparent gold buying in North Hyderabad. SGold Suchitra serves families, professionals, and business owners with honest pricing and quick service.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link href="tel:+919996909999" className="inline-flex rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-8 py-3.5 font-semibold text-[#330164] shadow-lg transition hover:-translate-y-1">
@@ -182,7 +182,7 @@ export default function SuchitraLocationPage() {
         <div className="rounded-[3rem] border border-card-border bg-card-bg p-8 shadow-2xl backdrop-blur-xl lg:p-12">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-text-primary">Visit S Gold Suchitra Today</h2>
+              <h2 className="text-3xl font-bold text-text-primary">Visit SGold Suchitra Today</h2>
               <p className="mt-4 text-lg text-text-secondary">Safe, secure, and professional gold liquidation.</p>
 
               <div className="mt-10 space-y-8">

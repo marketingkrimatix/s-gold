@@ -16,8 +16,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "S Gold | Sell Gold for Instant Cash",
-  description: "Modern premium gold buyer website built with Next.js and Tailwind CSS.",
+  metadataBase: new URL("https://s-gold.in"),
+  title: {
+    default: "SGold",
+    template: "%s | SGold",
+  },
+  description:
+    "SGold is Hyderabad’s trusted gold buyer for instant cash, pledged gold release, and transparent XRF-tested evaluation.",
+  keywords: [
+    "gold buyers in Hyderabad",
+    "sell gold Hyderabad",
+    "release pledged gold Hyderabad",
+    "cash for gold Hyderabad",
+    "old gold buyers Hyderabad",
+    "sell jewellery for cash Hyderabad",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: "SGold",
+    title: "SGold",
+    description:
+      "Trusted gold buyers in Hyderabad offering instant cash, bank transfer, and transparent evaluation.",
+    url: "https://s-gold.in",
+    images: ["/og-default.jpg"],
+  },
 };
 
 export default function RootLayout({

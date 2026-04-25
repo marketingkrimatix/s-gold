@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,11 +7,12 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-5 lg:px-8">
         <div>
           <div className="mb-4 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] font-bold text-[#330164] shadow-[0_10px_25px_rgba(233,201,98,0.16)]">
+            {/* <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] font-bold text-[#330164] shadow-[0_10px_25px_rgba(233,201,98,0.16)]">
               SG
-            </div>
+            </div> */}
+            <Image src="/logo1.svg" alt="S Gold Logo" width={100} height={100} />
             <div>
-              <p className="font-semibold text-text-primary">S Gold</p>
+              <p className="font-semibold text-text-primary">SGold</p>
               <p className="text-xs uppercase tracking-[0.25em] text-brand-gold">
                 Trusted Gold Buyers
               </p>
@@ -71,7 +73,7 @@ export default function Footer() {
           <div className="space-y-3 text-sm text-text-secondary">
             <Link href="/valuation-process" className="block transition hover:text-brand-gold-soft">Valuation Process</Link>
             <Link href="/referral-program" className="block transition hover:text-brand-gold-soft">Referral Program</Link>
-            <Link href="/why-us" className="block transition hover:text-brand-gold-soft">Why S Gold</Link>
+            <Link href="/why-us" className="block transition hover:text-brand-gold-soft">Why SGold</Link>
             <Link href="/blog" className="block transition hover:text-brand-gold-soft">Blog</Link>
           </div>
         </div>
@@ -105,7 +107,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-divider px-6 py-5 text-center text-sm text-text-muted">
-        © 2026 S Gold. All rights reserved.
+        © 2026 SGold. All rights reserved.
       </div>
     </footer>
   );

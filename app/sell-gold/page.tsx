@@ -43,12 +43,12 @@ export default function SellGoldPage() {
   return (
     <main className="min-h-screen bg-background text-text-primary">
       <Header />
-      
+
       <section className="relative px-6 py-20 lg:px-8">
         <div className="absolute inset-0 z-0">
           <div className="absolute left-[-5%] top-10 h-72 w-72 rounded-full bg-brand-gold/10 blur-[100px]" />
         </div>
-        
+
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
@@ -76,24 +76,24 @@ export default function SellGoldPage() {
       </section>
 
       <section className="relative mx-auto max-w-7xl px-6 py-12 lg:px-8">
-         <div className="mb-12 text-center">
-             <h2 className="text-3xl font-semibold text-text-primary">How to sell your gold</h2>
-             <p className="mt-4 text-text-tertiary">A straightforward, transparent 3-step process.</p>
-         </div>
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl font-semibold text-text-primary">How to sell your gold</h2>
+          <p className="mt-4 text-text-tertiary">A straightforward, transparent 3-step process.</p>
+        </div>
 
-         <div className="grid gap-6 md:grid-cols-3">
-             {[
-               { step: "01", title: "Visit a Branch", desc: "Bring your gold and a valid government ID to any of our secure branches." },
-               { step: "02", title: "Live Valuation", desc: "We test the gold right in front of you without melting or damaging it." },
-               { step: "03", title: "Instant Payout", desc: "Accept our offer based on live market rates and receive immediate payment." }
-             ].map(item => (
-                <div key={item.step} className="rounded-2xl border border-card-border bg-card-bg p-8 transition hover:bg-card-bg-hover">
-                   <p className="text-4xl font-bold text-brand-gold/20">{item.step}</p>
-                   <h3 className="mt-4 text-xl font-semibold text-text-primary">{item.title}</h3>
-                   <p className="mt-2 text-sm text-text-tertiary">{item.desc}</p>
-                </div>
-             ))}
-         </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {[
+            { step: "01", title: "Visit a Branch", desc: "Bring your gold and a valid government ID to any of our secure branches." },
+            { step: "02", title: "Live Valuation", desc: "We test the gold right in front of you without melting or damaging it." },
+            { step: "03", title: "Instant Payout", desc: "Accept our offer based on live market rates and receive immediate payment." }
+          ].map(item => (
+            <div key={item.step} className="rounded-2xl border border-card-border bg-card-bg p-8 transition hover:bg-card-bg-hover">
+              <p className="text-4xl font-bold text-brand-gold/20">{item.step}</p>
+              <h3 className="mt-4 text-xl font-semibold text-text-primary">{item.title}</h3>
+              <p className="mt-2 text-sm text-text-tertiary">{item.desc}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="bg-[var(--color-section-bg)] py-16 lg:py-24">
@@ -103,15 +103,15 @@ export default function SellGoldPage() {
               <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">Sell Gold</h2>
               <div className="mt-6 space-y-6 text-lg leading-8 text-text-secondary">
                 <p>
-                  If you have gold jewellery that you do not use anymore you can sell the same for instant cash at S Gold. 
-                  We are known as the best gold buyer in Hyderabad & we offer the best price in the market. 
-                  Gold is an asset that comes handy in times of financial crises where you can sell your jewellery 
+                  If you have gold jewellery that you do not use anymore you can sell the same for instant cash at SGold.
+                  We are known as the best gold buyer in Hyderabad & we offer the best price in the market.
+                  Gold is an asset that comes handy in times of financial crises where you can sell your jewellery
                   to fulfill your financial requirements.
                 </p>
                 <p>
-                  Apart from this, you may want to sell old jewellery to replace it with new, trending designer jewellery – 
-                  its the perfect way to upgrade! Sell your old gold at S Gold and convert it into cash in hand, instantly. 
-                  At S Gold, we guarantee fair evaluation and pricing of your gold as we are the best place to take gold for cash.
+                  Apart from this, you may want to sell old jewellery to replace it with new, trending designer jewellery –
+                  its the perfect way to upgrade! Sell your old gold at SGold and convert it into cash in hand, instantly.
+                  At SGold, we guarantee fair evaluation and pricing of your gold as we are the best place to take gold for cash.
                 </p>
               </div>
             </div>
@@ -120,13 +120,13 @@ export default function SellGoldPage() {
               <h2 className="text-2xl font-bold tracking-tight text-text-primary sm:text-3xl">Get Cash for Gold</h2>
               <div className="mt-6 space-y-6 text-base leading-7 text-text-secondary">
                 <p>
-                  In Hyderabad, there are many outlets that buy and sell gold jewelry for cash, but S Gold sets the standard 
-                  for offering the best prices for selling gold jewelry, backed by transparency and trust built over the years. 
+                  In Hyderabad, there are many outlets that buy and sell gold jewelry for cash, but SGold sets the standard
+                  for offering the best prices for selling gold jewelry, backed by transparency and trust built over the years.
                   We are a one-stop solution for all your gold and funds-against-gold related queries.
                 </p>
                 <p>
-                  S Gold boasts a simple, transparent, and clear process for evaluating your gold and offers you the best value in return. 
-                  The most sensible way to sell jewellery is to calculate how much amount you take home after the sale. 
+                  SGold boasts a simple, transparent, and clear process for evaluating your gold and offers you the best value in return.
+                  The most sensible way to sell jewellery is to calculate how much amount you take home after the sale.
                   If you compare prices across competitors, you will find that our rates are among the best in Telangana.
                 </p>
               </div>
@@ -147,7 +147,7 @@ export default function SellGoldPage() {
 
       <ChecklistSection />
 
-<FAQSection faqs={SellGoldFaqs} />
+      <FAQSection faqs={SellGoldFaqs} />
 
       <Footer />
     </main>

@@ -6,17 +6,19 @@ const services = [
   {
     title: "Sell Gold",
     description:
-      "If you have gold jewellery that you do not use anymore, you can sell it for instant cash at S Gold.",
+      "Have gold jewellery, broken ornaments, or gold coins you no longer use? Bring them to any SGold branch and walk out with instant cash the same day. We accept 18K, 20K, 22K, and 24K gold and offer pricing based on live market rates — no guesswork, no pressure.",
     href: "/sell-gold",
-    badge: "Instant Cash",
+    badge: "Get Instant Cash",
+    cta: "Sell My Gold",
     src: "/3.jpeg",
   },
   {
     title: "Release Pledged Gold",
     description:
-      "If your gold is pledged at a bank, pawnshop, or pawnbroker, S Gold can help release it and buy it back for cash.",
+      "Is your gold pledged at SBI, HDFC, Muthoot, Manappuram, or a local pawnbroker? SGold will send a representative to accompany you, clear your outstanding loan, release your gold, evaluate it at live market rates, and pay you the remaining value — all in one visit.",
     href: "/release-pledged-gold",
-    badge: "End-to-End Help",
+    badge: "Clear Your Loan Today",
+    cta: "Release My Gold",
     src: "/2.jpeg",
   },
 ];
@@ -35,10 +37,10 @@ export default function ServicesSection() {
           Our Services
         </p>
         <h2 className="mt-4 text-3xl font-semibold tracking-tight text-text-primary sm:text-4xl lg:text-5xl">
-          Solutions built around your gold needs
+          Everything You Need to Sell or Release Your Gold
         </h2>
         <p className="mt-4 text-base leading-7 text-text-secondary sm:text-lg">
-          Clear services, transparent process, and a premium experience from valuation to payout.
+          Whether you have unused jewellery sitting at home or gold pledged at a bank or pawnbroker, SGold gives you the fastest, fairest, and most transparent route to instant cash.
         </p>
       </div>
 
@@ -81,7 +83,7 @@ export default function ServicesSection() {
                   href={service.href}
                   className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#F6E7A1] via-[#E9C962] to-[#D4AF37] px-5 py-3 text-sm font-semibold text-[#2A0848] shadow-[0_12px_30px_rgba(233,201,98,0.24)] transition duration-300 hover:scale-[1.02]"
                 >
-                  Explore Service
+                  {service.cta} →
                 </Link>
 
                 <Link

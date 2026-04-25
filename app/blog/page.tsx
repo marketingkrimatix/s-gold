@@ -30,7 +30,7 @@ const blogPosts = [
 const blogFaqs = [
   {
     question: "How do I know if my gold is pure?",
-    answer: "You can check gold purity at home using simple methods like the magnet test, acid test, or by checking for hallmark stamps. For precise results, visit a professional gold buyer like S Gold."
+    answer: "You can check gold purity at home using simple methods like the magnet test, acid test, or by checking for hallmark stamps. For precise results, visit a professional gold buyer like SGold."
   },
   {
     question: "What is XRF technology?",
@@ -38,7 +38,7 @@ const blogFaqs = [
   },
   {
     question: "Can I sell pledged gold?",
-    answer: "Yes, you can sell pledged gold. You need to clear the outstanding loan amount with the lender to release the gold, after which you can sell it to a buyer like S Gold."
+    answer: "Yes, you can sell pledged gold. You need to clear the outstanding loan amount with the lender to release the gold, after which you can sell it to a buyer like SGold."
   }
 ];
 
@@ -53,7 +53,7 @@ export default function BlogPage() {
             Resources
           </p>
           <h1 className="mt-4 text-4xl font-bold text-text-primary lg:text-5xl">
-            S Gold Journal
+            SGold Journal
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-text-tertiary">
             Insights, guides, and transparency reports from the gold buying industry.

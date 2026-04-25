@@ -16,7 +16,7 @@ export default function HeroSideAssets() {
           x: { duration: 0.8, ease: "easeOut" },
           y: { duration: 5.6, repeat: Infinity, ease: "easeInOut" },
         }}
-        className={`absolute left-[2.5%] top-[29%] ${FRAME}`}
+        className={`absolute left-[2.5%] top-[34%] ${FRAME}`}
       >
         <div className="relative h-full w-full">
           <Image
@@ -37,7 +37,7 @@ export default function HeroSideAssets() {
           x: { duration: 0.8, ease: "easeOut", delay: 0.1 },
           y: { duration: 5.8, repeat: Infinity, ease: "easeInOut" },
         }}
-        className={`absolute right-[2.5%] top-[26%] ${FRAME}`}
+        className={`absolute right-[2.5%] top-[31%] ${FRAME}`}
       >
         <div className="relative h-full w-full">
           <Image

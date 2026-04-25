@@ -131,7 +131,7 @@ const locationsFaqs = [
     "answer": "Our head office is located at Plot No. 6-2-198/3, Siva Sai Nilayam, Khairatabad, Hyderabad. Opposite SBI Bank."
   },
   {
-    "question": "How many branches does S Gold have in Hyderabad?",
+    "question": "How many branches does SGold have in Hyderabad?",
     "answer": "We have 20+ branches across Hyderabad, including major areas like Khairatabad, Kukatpally, Jubilee Hills, Manikonda, Dilshuknagar, and LB Nagar."
   },
   {
@@ -161,7 +161,7 @@ export default function LocationsPage() {
             Our Branches
           </p>
           <h1 className="mt-4 text-4xl font-bold text-text-primary lg:text-5xl">
-            Find an S Gold near you
+            Find an SGold near you
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-text-tertiary">
             Visit any of our convenient locations for a free, transparent valuation in a highly secure environment.
